@@ -9,7 +9,7 @@ theme:
     primary: purple
     accent: yellow
   features:
-    -navigation.tabs 
+    - navigation.tabs 
 
 nav:
   - Início: index.md
@@ -17,5 +17,15 @@ nav:
     - Ata 1: atas/03-03-2024.md
     - Ata 2: atas/14-03-2024.md
     - Ata 3: atas/22-03-2024.md
-  - Modelagem Banco de Dados:
-    - Modelo 1: modelagem_banco/modelo_relacional.md
+  - Modelagem Banco de Dados: modelagem_banco/modelo_relacional.md
+  - Figma: 
+    - Versão 1: prototipos_figma/versao1.md
+    - Versão 2: prototipos_figma/versao2.md
+    - Versão 3: prototipos_figma/versao3.md
+  - Requisitos: requisitos/requisitos.md
+  - Sprint Backlog: sprints/sprints.md
+  - Templates:
+    - Template Atas: templates/atas.md
+    - Template Issues: template/issues.md
+  - Fluxogramas:
+    - Fluxograma da Interface: fluxogramas/interface.md

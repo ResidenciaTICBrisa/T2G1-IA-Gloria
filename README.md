@@ -18,8 +18,11 @@ O Projeto Mapa de Violência é uma iniciativa desenvolvida pelo Instituto Glór
 
 ## Contato
 Para mais informações sobre o Projeto Mapa de Violência do Instituto Glória você pode nos acessar nos seguintes canais:
+
 - Site: [https://eusouagloria.com.br/home](https://eusouagloria.com.br/home)
+
 - Instagram: [@eusouagloria](https://www.instagram.com/eusouagloria)
+
 - Facebook: [Gloria Institute](https://www.facebook.com/gloriainstitute)
 
 ## Equipe
