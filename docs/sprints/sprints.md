@@ -1,4 +1,4 @@
-# **Sprint Backlog**
+## **Sprint Backlog**
 
 | Número da Sprint |        Tarefa        |   Data de Início  |   Data de Término  |       Participantes       |
 |------------------|----------------------|-------------------|--------------------|---------------------------|

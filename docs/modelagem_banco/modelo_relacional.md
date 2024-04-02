@@ -1,4 +1,4 @@
-# **Modelo Relacional do Banco de Dados**
+## **Modelo Relacional do Banco de Dados**
 Utilizaremos o banco de dados relacional, que consiste em uma forma direta de apresentar os dados utilizandos tabelas. 
 
 Os dados serão coletados através do formulário disponível na página web. A estrutura do banco de dados foi definida juntamente com o Product Owner (PO) do projeto, resultando, até o momento, em cinco entidades: 
