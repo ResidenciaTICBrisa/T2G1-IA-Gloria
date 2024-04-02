@@ -1,4 +1,4 @@
-## **Modelo Relacional do Banco de Dados**
+<hr style="border: 0; height: 1px; background-color: #000000;">
 Utilizaremos o banco de dados relacional, que consiste em uma forma direta de apresentar os dados utilizandos tabelas. 
 
 Os dados serão coletados através do formulário disponível na página web. A estrutura do banco de dados foi definida juntamente com o Product Owner (PO) do projeto, resultando, até o momento, em cinco entidades: 
@@ -12,5 +12,4 @@ Os dados serão coletados através do formulário disponível na página web. A 
 
 ## **Acesso**
 
-Você pode acessar o modelo em: 
-![Modelo Banco de Dados](https://erd.dbdesigner.net/designer/schema/1711024646-mapa-da-violencia)
+<iframe width="100%" height="500px" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DB Designer IFrame" frameborder="0" src='https://erd.dbdesigner.net/designer/schema/1711024646-mapa-da-violencia?embed=true'></iframe>

@@ -1,4 +1,4 @@
-## **Fluxograma da interface**
+<hr style="border: 0; height: 1px; background-color: #000000;">
 
 ## **Objetivo**
 
@@ -8,6 +8,6 @@ Portanto, criamos um fluxograma para demonstrar a árvore de decisão da interfa
 
 ## **Acesso**
 
-Para ter acesso ao fluxograma:
+<img src="docs/fluxogramas/diagrama.png" alt="Fluxograma">
 
-![Fluxograma da Interface](https://drive.google.com/file/d/1SPUBx40D9JT57jM5wL5WKp_paB3uIu3N/view?usp=sharing)
+

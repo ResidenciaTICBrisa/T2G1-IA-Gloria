@@ -1,15 +1,17 @@
+<hr style="border: 0; height: 1px; background-color: #000000;">
+
 ## **Ata da Reunião 00**
 
 ## **Lista de presença**
 
 | Nome | Presente |
 |:----:|:--------:|
-| Ana Julia B Souza | Sim |
-| Barbara Beatriz da Silva | Sim |
-| Beatriz Geane Santos Lins | Sim |
-| Catlen Cleane F de Oliveira | Sim |
-| Izabelle Mour Gomes Ribas| Sim |
-| Kece Line Oliveira | Sim |
+| Ana Julia B Souza | x |
+| Barbara Beatriz da Silva | x |
+| Beatriz Geane Santos Lins | x |
+| Catlen Cleane F de Oliveira | x |
+| Izabelle Mour Gomes Ribas| x |
+| Kece Line Oliveira | x |
 
 | Horário de Início | Horário de Término | Local |
 |:-----------------:|:------------------:|:-----:|
@@ -17,10 +19,11 @@
 
 ## **Pautas**
 
-* Requisitos sobre o projeto
+* 
 
 
 ## **Atividades Definidas**
 
 | Atividade | Prazo | Responsável |
 |:---------:|:-----:|:-----------:|
+| x | x | x |

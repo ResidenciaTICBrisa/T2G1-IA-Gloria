@@ -1,9 +1,7 @@
-## **Elicitação de Requisitos**
-
-
+<hr style="border: 0; height: 1px; background-color: #000000;">
 ## **Metodologia**
 <p align="justify">
-&emsp;&emsp;Para elicitarmos os requisitos utilizamos a técnica de Introspecção que consiste na criação de uma <b>simulação</b> onde mostra a forma como os usuários interagem com o site. Através da elaboração de uma narrativa de um usuário, são analisados seus objetivos, tarefas e preferências, permitindo a identificação dos diferentes caminhos que os usuários podem seguir. Com base nessa análise, são definidos os requisitos funcionais e não funcionais do sistema. 
+&emsp;&emsp;Para elicitarmos os requisitos utilizamos a técnica de Introspecção que consiste na criação de uma simulação onde mostra a forma como os usuários interagem com o site. Através da elaboração de uma narrativa de um usuário, são analisados seus objetivos, tarefas e preferências, permitindo a identificação dos diferentes caminhos que os usuários podem seguir. Com base nessa análise, são definidos os requisitos funcionais e não funcionais do sistema. 
 </p>
 
 ## **Narrativa**

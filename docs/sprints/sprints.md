@@ -1,5 +1,4 @@
-## **Sprint Backlog**
-
+<hr style="border: 0; height: 1px; background-color: #000000;">
 | Número da Sprint |        Tarefa        |   Data de Início  |   Data de Término  |       Participantes       |
 |------------------|----------------------|-------------------|--------------------|---------------------------|
 |       Sprint 1   | Configuração dos computadores |   19/02/2024  |  04/03/2024 | Todos |
