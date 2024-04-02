@@ -1,23 +1,23 @@
 
-## Descrição do Problema
+## **Descrição do Problema**
 Qual é o problema?
 
-## Solução Proposta
+## **Solução Proposta**
 COMO O PROBLEMA SERÁSOLUCIONADO
 
-## Tarefas
+## **Tarefas**
   - [ ] ETAPAS QUE PRECISAM SER FEITAS PARA RESOLVER O PROBLEMA 
 
   - [ ] 
 
   - [ ] 
 
-## Critérios de Aceitação
+## **Critérios de Aceitação**
   - [ ] RESULTADOS ESPERADOS QUANDO RESOLVERMOS O PROBLEMA
 
   - [ ]  
 
-## Recursos
+## **Recursos**
 
  - RECURSOS USADOS PARA RESOLVER O PROBLEMA(ARTIGOS,VIDEOS,SITES,LIVROS,CONVERSA ETC.) 
  -

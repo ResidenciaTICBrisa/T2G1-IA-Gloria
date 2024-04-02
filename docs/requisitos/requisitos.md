@@ -1,4 +1,4 @@
-# ***Elicitação de Requisitos***
+# **Elicitação de Requisitos**
 
 
 ## **Metodologia**
@@ -6,7 +6,7 @@
 &emsp;&emsp;Para elicitarmos os requisitos utilizamos a técnica de Introspecção que consiste na criação de uma <b>simulação</b> onde mostra a forma como os usuários interagem com o site. Através da elaboração de uma narrativa de um usuário, são analisados seus objetivos, tarefas e preferências, permitindo a identificação dos diferentes caminhos que os usuários podem seguir. Com base nessa análise, são definidos os requisitos funcionais e não funcionais do sistema. 
 </p>
 
-# **Narrativa**
+## **Narrativa**
 <p align="justify">
 &emsp;&emsp;A usuária vai acessar o site através do seu celular. O endereço do site pode ser encontrado nas redes sociais do instituto e através de outros meios de divulgação. Ao acessar o link, ela vai se deparar com perguntas que vão pedir para que ela escolha uma resposta com base na situação que presenciou ou vivenciou. A cada resposta assinalada, as perguntas vão se adaptando para entender melhor que tipo de violência a usuária sofreu. Ao final, haverá um diagnóstico do tipo de violência sofrida junto de recomendações do que fazer. Antes de sair da página de perguntas e acessar o mapa, haverá uma pergunta: se a usuária permite acesso à sua localização. Após isso, será exibido um mapa com assinalando em que regiões quais tipos de violência foram sofridas.
 </p>

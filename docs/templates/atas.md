@@ -1,6 +1,6 @@
-# Ata da Reunião 00 
+# **Ata da Reunião 00**
 
-## Lista de presença
+## **Lista de presença**
 
 | Nome | Presente |
 |:----:|:--------:|
@@ -15,12 +15,12 @@
 |:-----------------:|:------------------:|:-----:|
 | x | x | x |
 
-## Pautas
+## **Pautas**
 
 * Requisitos sobre o projeto
 
 
-## Atividades Definidas
+## **Atividades Definidas**
 
 | Atividade | Prazo | Responsável |
 |:---------:|:-----:|:-----------:|
