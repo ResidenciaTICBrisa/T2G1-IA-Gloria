@@ -1,0 +1,17 @@
+site_name: Mapa da Violência
+repo_name: "T2G1-IA-Gloria"
+repo_url: "https://github.com/ResidenciaTICBrisa/T2G1-IA-Gloria"
+
+theme:
+  name: material
+  language: "pt"
+  palette:
+    primary: purple
+    accent: yellow
+  features:
+    -navigation.tabs 
+
+nav:
+  - Início: index.md
+  - Atas:
+    - Ata 1: atas/ata1.md
