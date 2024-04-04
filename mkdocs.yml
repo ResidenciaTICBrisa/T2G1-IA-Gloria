@@ -25,7 +25,8 @@ nav:
   - Elicitação de Requisitos: requisitos/requisitos.md
   - Sprint Backlog: sprints/sprints.md
   - Templates:
-    - Template Atas: templates/atas.md
-    - Template Issues: templates/issues.md
-  - Fluxogramas:
-    - Fluxograma da Interface: fluxogramas/interface.md
+    - Template Atas: templatess/atas.md
+    - Template Issues: templatess/issues.md
+  - Diagramas:
+    - Fluxograma da Interface: diagramas/fluxograma_interface.md
+    - Arquitetura do Projeto: diagramas/arquitetura.md
