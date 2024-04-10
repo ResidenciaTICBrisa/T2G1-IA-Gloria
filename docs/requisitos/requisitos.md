@@ -1,24 +1,21 @@
 # **Elicitação de Requisitos**
 <hr style="border: 0; height: 1px; background-color: #000000;">
+
 ## **Metodologia**
-<p align="justify">
-&emsp;&emsp;Para elicitarmos os requisitos utilizamos a técnica de Introspecção que consiste na criação de uma simulação onde mostra a forma como os usuários interagem com o site. Através da elaboração de uma narrativa de um usuário, são analisados seus objetivos, tarefas e preferências, permitindo a identificação dos diferentes caminhos que os usuários podem seguir. Com base nessa análise, são definidos os requisitos funcionais e não funcionais do sistema. 
+<p align="justify">Para elicitarmos os requisitos utilizamos a técnica de Introspecção que consiste na criação de uma simulação onde mostra a forma como os usuários interagem com o site. Através da elaboração de uma narrativa de um usuário, são analisados seus objetivos, tarefas e preferências, permitindo a identificação dos diferentes caminhos que os usuários podem seguir. Com base nessa análise, são definidos os requisitos funcionais e não funcionais do sistema. 
 </p>
 
 ## **Narrativa**
-<p align="justify">
-&emsp;&emsp;A usuária vai acessar o site através do seu celular. O endereço do site pode ser encontrado nas redes sociais do instituto e através de outros meios de divulgação. Ao acessar o link, ela vai se deparar com perguntas que vão pedir para que ela escolha uma resposta com base na situação que presenciou ou vivenciou. A cada resposta assinalada, as perguntas vão se adaptando para entender melhor que tipo de violência a usuária sofreu. Ao final, haverá um diagnóstico do tipo de violência sofrida junto de recomendações do que fazer. Antes de sair da página de perguntas e acessar o mapa, haverá uma pergunta: se a usuária permite acesso à sua localização. Após isso, será exibido um mapa com assinalando em que regiões quais tipos de violência foram sofridas.
+<p align="justify">A usuária vai acessar o site através do seu celular. O endereço do site pode ser encontrado nas redes sociais do instituto e através de outros meios de divulgação. Ao acessar o link, ela vai se deparar com perguntas que vão pedir para que ela escolha uma resposta com base na situação que presenciou ou vivenciou. A cada resposta assinalada, as perguntas vão se adaptando para entender melhor que tipo de violência a usuária sofreu. Ao final, haverá um diagnóstico do tipo de violência sofrida junto de recomendações do que fazer. Antes de sair da página de perguntas e acessar o mapa, haverá uma pergunta: se a usuária permite acesso à sua localização. Após isso, será exibido um mapa com assinalando em que regiões quais tipos de violência foram sofridas.
 </p>
 
 ## **Requisitos Elicitados**
-<p align="justify">
-&emsp;&emsp;Legenda da tabela: 
+<p align="justify">Legenda da tabela: 
 <li> RF(Requisitos Funcionais): descrevem as funcionalidades e operações que o sistema deve realizar para atender às necessidades dos usuários. </li>
 <li> RNF(Requisitos Não Funcionais): definem a qualidade e o desempenho de um sistema. </li>
 <li> Identificação(R + N°) : Requisito Elicitado pela Introspecção + Número
 </p>
-<p align="justify">
-&emsp;&emsp;A tabela abaixo representa os Requisitos Elicitados:
+<p align="justify">A tabela abaixo representa os Requisitos Elicitados:
 </p>
 
 | Identificador | Requisito | Categoria | 
@@ -43,3 +40,5 @@
 |R18| O sistema deve ser capaz de lidar com o aumento no número de acessos sem comprometer o desempenho| RNF |
 |R19| O sistema deve ser estável e confiável, minimizando falhas e interrupções| RNF |
 |R20| O sistema deve identificar o usuário com base no endereço de IP| RF |
+
+<center>Autoras: Catlen Cleane e Izabelle Mour</center>

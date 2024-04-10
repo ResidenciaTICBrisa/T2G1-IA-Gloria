@@ -1,8 +1,8 @@
 # **Modelagem Banco de Dados**
 <hr style="border: 0; height: 1px; background-color: #000000;">
-Utilizaremos o banco de dados relacional, que consiste em uma forma direta de apresentar os dados utilizandos tabelas. 
+<p align="justify">Utilizaremos o banco de dados relacional, que consiste em uma forma direta de apresentar os dados utilizandos tabelas. </p>
 
-Os dados serão coletados através do formulário disponível na página web. A estrutura do banco de dados foi definida juntamente com o Product Owner (PO) do projeto, resultando, até o momento, em cinco entidades: 
+<p align="justify">Os dados serão coletados através do formulário disponível na página web. A estrutura do banco de dados foi definida juntamente com o Product Owner (PO) do projeto, resultando, até o momento, em cinco entidades: </p>
 
 * **User**: contêm uma chave única para identificação do dispositivo, sem identificar diretamente o usuário; 
 * **Occurrences**: possui uma chave única para cada ocorrência, o identificador do dispositivo que enviou, data de envio, data da ocorrência, faixa etária da vítima, janela temporal de ocorrência da violência, situações informadas e o diagnóstico dos tipos de violência; 

@@ -3,8 +3,8 @@
 
 ## **Objetivo**
 
- A arquitetura de um projeto refere-se à estrutura geral, organização e design do sistema de software. É como o projeto é organizado e como os diferentes componentes do software interagem entre si para cumprir os requisitos funcionais e não funcionais do sistema.
- A arquitetura mostrada na imagem é uma arquitetura de software para um sistema web que usa React JS como framework de front-end e Node.js como plataforma de back-end. O sistema é composto por três camadas principais:
+ <p align="justify">A arquitetura de um projeto refere-se à estrutura geral, organização e design do sistema de software. É como o projeto é organizado e como os diferentes componentes do software interagem entre si para cumprir os requisitos funcionais e não funcionais do sistema.</p>
+ <p align="justify">A arquitetura mostrada na imagem é uma arquitetura de software para um sistema web que usa React JS como framework de front-end e Node.js como plataforma de back-end. O sistema é composto por três camadas principais:</p>
 
 ### Camada de apresentação:
 
@@ -26,3 +26,5 @@
 
 ## **Acesso**
 ![alt text](arquitetura.jpeg)
+
+<center>Autora: Catlen Cleane</center>

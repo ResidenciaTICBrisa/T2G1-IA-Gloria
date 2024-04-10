@@ -5,11 +5,24 @@ repo_url: "https://github.com/ResidenciaTICBrisa/T2G1-IA-Gloria"
 theme:
   name: material
   language: "pt"
-  palette:
-    primary: purple
-    accent: yellow
+  favicon: img/logo.png
   features:
-    - navigation.tabs 
+    - navigation.tabs
+  logo: img/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      primary: purple
+      toggle:
+        icon: material/brightness-7
+        name: Alterar para o modo escuro
+      accent: white
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      toggle:
+        icon: material/brightness-4
+        name: Alterar para o modo claro
 
 nav:
   - Início: index.md
@@ -23,7 +36,9 @@ nav:
     - Versão 2: prototipos_figma/versao2.md
     - Versão 3: prototipos_figma/versao3.md
   - Elicitação de Requisitos: requisitos/requisitos.md
-  - Sprint Backlog: sprints/sprints.md
+  - Sprint Backlog:
+      - Sprints: sprints/sprints.md
+      - Roadmap: sprints/roadmap.md
   - Templates:
     - Template Atas: templatess/atas.md
     - Template Issues: templatess/issues.md
