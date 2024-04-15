@@ -14,3 +14,5 @@
 ## **Acesso**
 
 <iframe width="100%" height="500px" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DB Designer IFrame" frameborder="0" src='https://erd.dbdesigner.net/designer/schema/1711024646-mapa-da-violencia?embed=true'></iframe>
+
+<center>Autoras: Ana Júlia Souza e Izabelle Mour</center>

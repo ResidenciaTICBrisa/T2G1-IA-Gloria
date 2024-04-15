@@ -38,6 +38,5 @@ Para mais informações sobre o Projeto Mapa de Violência do Instituto Glória 
       <td align="center"><a href="https://github.com/Kec3-Lin3"><img style="border-radius: 50%;" src="https://github.com/Kec3-Lin3.png" width="100px;" alt=""/><br/><sub><b>Kece Oliveira</b></sub></a><br/>
   </tr>
 </table>
-Estamos sempre abertos para feedback, sugestões e parcerias!
-<br>
-Junte-se a nós na luta contra a violência.
+<center> Estamos sempre abertos para feedback, sugestões e parcerias!</center>
+<center> Junte-se a nós na luta contra a violência.</center>
