@@ -29,7 +29,7 @@ nav:
   - Atas:
     - Ata da Reunião 01 - 03/03: atas/03-03-2024.md
     - Ata da Reunião 02 - 14/03: atas/14-03-2024.md
-    - Ata da Reunião 02 - 22/03: atas/22-03-2024.md
+    - Ata da Reunião 03 - 22/03: atas/22-03-2024.md
   - Modelagem Banco de Dados: modelagem_banco/modelo_relacional.md
   - Figma: 
     - Versão 1: prototipos_figma/versao1.md
@@ -37,8 +37,17 @@ nav:
     - Versão 3: prototipos_figma/versao3.md
   - Elicitação de Requisitos: requisitos/requisitos.md
   - Sprint Backlog:
-      - Sprints: sprints/sprints.md
-      - Roadmap: sprints/roadmap.md
+      - Sprint 1: sprints/sprint1.md
+      - Sprint 2: sprints/sprint2.md
+      - Sprint 3: sprints/sprint3.md
+      - Sprint 4: sprints/sprint4.md
+      - Sprint 5: sprints/sprint5.md
+      - Sprint 6: sprints/sprint6.md
+      - Sprint 7: sprints/sprint7.md
+      - Sprint 8: sprints/sprint8.md
+      - Sprint 9: sprints/sprint9.md
+      - Sprint 10: sprints/sprint10.md
+  - Roadmap: roadmap/roadmap.md
   - Templates:
     - Template Atas: templatess/atas.md
     - Template Issues: templatess/issues.md

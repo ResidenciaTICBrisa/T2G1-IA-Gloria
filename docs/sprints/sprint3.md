@@ -1,0 +1,21 @@
+# **Sprint 3**
+<hr style="border: 0; height: 1px; background-color: #000000;">
+
+**Objetivo da Sprint:**
+O objetivo da sprint 3 é realizar a prototipação da interface do projeto no Figma e iniciar os primeiros esboços da modelagem do banco de dados.
+
+**Datas da Sprint:**
+
+- **Início:** 18/03/2024
+- **Término:** 28/03/2024
+
+**Backlog da Sprint:**
+
+| Descrição | Responsável | Status |
+|------------|-------------|-----------------------|
+| Modelagem banco de dados | Ana Júlia | Concluído |
+| Protótipo Figma | Bárbara Beatriz | Concluído |
+| Protótipo Figma | Beatriz Lins | Concluído |
+| Organização da documentação | Catlen Cleane | Concluído |
+| Modelagem banco de dados | Izabelle Mour | Concluído |
+
