@@ -6,8 +6,8 @@ O objetivo da sprint 6 é
 
 **Datas da Sprint:**
 
-- **Início:** 
-- **Término:** 
+- **Início:** 15/04/2024 
+- **Término:** 22/04/2024 
 
 **Backlog da Sprint:**
 
@@ -15,7 +15,7 @@ O objetivo da sprint 6 é
 |------------|-------------|-----------------------|
 |  | Ana Júlia | Concluído |
 |  | Bárbara Beatriz | Concluído |
-|  | Beatriz Lins | Concluído |
+| HTML e CSS das páginas: HomePage e WhatToDoPage, e ajustes dos CSS's de todas as páginas  | Beatriz Lins | Concluído |
 |  | Catlen Cleane | Concluído |
 |  | Izabelle Mour | Concluído |
 |  | Kece Line | Concluído |
