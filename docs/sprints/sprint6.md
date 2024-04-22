@@ -17,6 +17,6 @@ O objetivo da sprint 6 é
 |  | Bárbara Beatriz | Concluído |
 | HTML e CSS das páginas: HomePage e WhatToDoPage, e ajustes dos CSS's de todas as páginas  | Beatriz Lins | Concluído |
 |  | Catlen Cleane | Concluído |
-|  | Izabelle Mour | Concluído |
+|  Últimos ajustes no banco de dados e início do desenvolvimento do back da página de Estado | Izabelle Mour | Concluído |
 |  | Kece Line | Concluído |
 
