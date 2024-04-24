@@ -6,14 +6,15 @@ O objetivo da sprint 6 é
 
 **Datas da Sprint:**
 
-- **Início:** 
-- **Término:** 
+- **Início:** 15/04/2024 
+- **Término:** 22/04/2024 
 
 **Backlog da Sprint:**
 
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
 |  | Ana Júlia | Concluído |
+<<<<<<< HEAD
 |  CSS das páginas: EmergencyPage, KnowMorePage e criação do componente FormIndex com seus respectivos values| Bárbara Beatriz | Concluído |
 |  | Beatriz Lins | Concluído |
 |  | Catlen Cleane | Concluído |
@@ -21,3 +22,11 @@ O objetivo da sprint 6 é
 |  | Kece Line | Concluído |
 |Instalação do Postgres | Ana Júlia, Bárbara Beatriz, Beatriz Lins, Catlen e Kece | Concluído 
 |Criar tutorial para instalar Postgres e auxiliar demais membros | Izabelle Mour | Concluído 
+=======
+|  | Bárbara Beatriz | Concluído |
+| HTML e CSS das páginas: HomePage e WhatToDoPage, e ajustes dos CSS's de todas as páginas  | Beatriz Lins | Concluído |
+|  Desenvolvimento do back da página de Estado  | Catlen Cleane | Concluído |
+|  Últimos ajustes no banco de dados e desenvolvimento do back da página de Estado | Izabelle Mour | Concluído |
+| Configuração do Banco de Dados, PostgreSQL e do Prisma. | Kece Line | Concluído |
+
+>>>>>>> 89f1ee1b89d7c79af70247e31c2f89a148581135

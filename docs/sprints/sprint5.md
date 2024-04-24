@@ -14,9 +14,9 @@ O objetivo da sprint 5 é desenvolver o HTML das páginas principais, corrigir a
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
 | Estudo da API Open Street Map | Ana Júlia | Concluído |
-| HTML das páginas: WhatToDoPage, ThankYouPage, HomePage e EmergencyPage | Bárbara Beatriz | Concluído |
+| Roadmap | Bárbara Beatriz | Concluído |
 | HTML e CSS da página ViolenceTypesPage e correções da documentação na gitpage | Beatriz Lins | Concluído |
-|  | Catlen Cleane | Concluído |
+| Backend da página StateFormPage | Catlen Cleane | Concluído |
 | Modelagem e criação do banco de dados | Izabelle Mour | Concluído |
-| Modelagem e criação do banco de dados | Kece Line | Concluído |
+| Roadmap | Kece Line | Concluído |
 
