@@ -14,8 +14,8 @@ O objetivo da sprint 9 é
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
 |  | Ana Júlia | Concluído |
-|  | Bárbara Beatriz | Concluído |
-|  | Beatriz Lins | Concluído |
+| Versão Web resposiva das páginas:  RegistrationInformationPage e HomePage | Bárbara Beatriz | Concluído |
+| Versão Web resposiva das páginas: FormAboutViolencePage, FormClassifyViolencePage e FormStatePage | Beatriz Lins | Concluído |
 |  | Catlen Cleane | Concluído |
 |  | Izabelle Mour | Concluído |
 |  | Kece Line | Concluído |

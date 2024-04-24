@@ -14,8 +14,8 @@ O objetivo da sprint 8 é
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
 |  | Ana Júlia | Concluído |
-|  | Bárbara Beatriz | Concluído |
-|  | Beatriz Lins | Concluído |
+|  Versão Web responsiva das páginas: EmergencyPage, KnowMorePage e ThankYouPage | Bárbara Beatriz | Não iniciado |
+| Versão web responsiva das páginas: AuthorizeLocalizationPage, WhatToDoPage e ViolenceTypesPage | Beatriz Lins | Não iniciado |
 |  | Catlen Cleane | Concluído |
 |  | Izabelle Mour | Concluído |
 |  | Kece Line | Concluído |

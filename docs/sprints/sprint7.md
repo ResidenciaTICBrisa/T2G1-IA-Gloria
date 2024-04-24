@@ -14,8 +14,8 @@ O objetivo da sprint 7 é
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
 |  | Ana Júlia | Concluído |
-|  | Bárbara Beatriz | Concluído |
-|  | Beatriz Lins | Concluído |
+| Revisar CSS de todas as páginas e fazer ajustes necessários| Bárbara Beatriz, Beatriz Lins | Fazendo |
+| Estudar sobre responsividade | Bárbara Beatriz, Beatriz Lins | Fazendo |
 |  | Catlen Cleane | Concluído |
 |  | Izabelle Mour | Concluído |
 |  | Kece Line | Concluído |

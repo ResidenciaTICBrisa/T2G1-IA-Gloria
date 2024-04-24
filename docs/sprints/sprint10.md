@@ -14,7 +14,7 @@ O objetivo da sprint 10 é
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
 |  | Ana Júlia | Concluído |
-|  | Bárbara Beatriz | Concluído |
+| Ajustar CSS das páginas Web responsivas | Bárbara Beatriz e Beatriz Lins | Concluído |
 |  | Beatriz Lins | Concluído |
 |  | Catlen Cleane | Concluído |
 |  | Izabelle Mour | Concluído |
