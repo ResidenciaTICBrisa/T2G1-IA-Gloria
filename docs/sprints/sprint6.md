@@ -18,5 +18,5 @@ O objetivo da sprint 6 é
 | HTML e CSS das páginas: HomePage e WhatToDoPage, e ajustes dos CSS's de todas as páginas  | Beatriz Lins | Concluído |
 |  Desenvolvimento do back da página de Estado  | Catlen Cleane | Concluído |
 |  Últimos ajustes no banco de dados e desenvolvimento do back da página de Estado | Izabelle Mour | Concluído |
-|  | Kece Line | Concluído |
+| Configuração do Banco de Dados, PostgreSQL e do Prisma. | Kece Line | Concluído |
 
