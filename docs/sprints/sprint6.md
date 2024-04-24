@@ -13,7 +13,7 @@ O objetivo da sprint 6 é
 
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
-|  | Ana Júlia | Concluído |
+|  Configuração do Banco de Dados, PostgreSQL e do Prisma| Ana Júlia | Concluído |
 |  | Bárbara Beatriz | Concluído |
 | HTML e CSS das páginas: HomePage e WhatToDoPage, e ajustes dos CSS's de todas as páginas  | Beatriz Lins | Concluído |
 |  Desenvolvimento do back da página de Estado  | Catlen Cleane | Concluído |
