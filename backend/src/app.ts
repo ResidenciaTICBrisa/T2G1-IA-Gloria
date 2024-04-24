@@ -5,6 +5,7 @@ import { handleApplicationErrors } from './middlewares/error-handling-middleware
 import answersRouter from './routers/answers-router';
 import { answersRepository } from './repositories/answers-repository';
 import type { User } from '@prisma/client';
+import authorizationRouter from './routers/authorization-router';
 
 const app = express();
 
@@ -15,6 +16,7 @@ app
     .use(express.json())
     .get('/health', (_req: Request, res: Response) => res.send('OK!')) // rota teste para garantir que o servidor está rodando
     .use(answersRouter)
+    .use(authorizationRouter)
     .use(handleApplicationErrors)
     .listen(port, () => {
         console.log(`Servidor rodando na porta ${port}`);
