@@ -1,7 +1,7 @@
-async function getAnswer(params:type) {
+async function getAnswer() {
     
 }
-async function postAnswer(params:type) {
+async function postAnswer() {
     
 }
 export const authorizationRepository ={
