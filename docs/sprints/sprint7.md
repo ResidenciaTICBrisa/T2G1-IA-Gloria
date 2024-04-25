@@ -19,4 +19,4 @@ O objetivo da sprint 7 é iniciar o BackEnd das páginas principais e estudar re
 | Ajustar os componentes e Header e Footer e ajustar caminhos dos botões| Beatriz Lins | Concluído |
 | Ajustes finais no Banco de dados | Izabelle Mour | Concluído |
 | Desenvolvimento do BackEnd da FormStatePage | Izabelle Mour e Catlen Cleane | Em execução 
-| Organizar apresentação para o FLISol | Todos os membros | Em execução 
+| Organizar apresentação para o FLISol | Kece Line | Concluído  
