@@ -7,7 +7,7 @@ O objetivo da sprint 4 é executar o HTML e CSS das páginas de formulário do w
 **Datas da Sprint:**
 
 - **Início:** 25/03/2024
-- **Término:** 08/04/2024
+- **Término:** 07/04/2024
 
 **Backlog da Sprint:**
 

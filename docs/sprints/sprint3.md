@@ -7,7 +7,7 @@ O objetivo da sprint 3 é realizar a prototipação da interface do projeto no F
 **Datas da Sprint:**
 
 - **Início:** 18/03/2024
-- **Término:** 28/03/2024
+- **Término:** 24/03/2024
 
 **Backlog da Sprint:**
 
@@ -16,6 +16,6 @@ O objetivo da sprint 3 é realizar a prototipação da interface do projeto no F
 | Modelagem banco de dados | Ana Júlia | Concluído |
 | Protótipo Figma | Bárbara Beatriz | Concluído |
 | Protótipo Figma | Beatriz Lins | Concluído |
-| Organização da documentação | Catlen Cleane | Concluído |
-| Modelagem banco de dados | Izabelle Mour | Concluído |
+| Elicitação de Requisitos e Organização da documentação | Catlen Cleane | Concluído |
+| Elicitação de Rquisitos e Modelagem banco de dados | Izabelle Mour | Concluído |
 

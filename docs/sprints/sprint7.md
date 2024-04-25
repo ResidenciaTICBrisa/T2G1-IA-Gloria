@@ -2,18 +2,18 @@
 <hr style="border: 0; height: 1px; background-color: #000000;">
 
 **Objetivo da Sprint:**
-O objetivo da sprint 7 é iniciar o BackEnd das páginas principais e estudar responsividade em React. 
+O objetivo da sprint 7 é densenvolver o código em Typescripte do backend das páginas AuthorizeLocalizationPage e FormStatePage, continuar no desenvolvimento dos códigos em HTML e CSS das páginas do frontend e estudar responsividade em React.
 
 **Datas da Sprint:**
 
 - **Início:** 22/04/2024 
-- **Término:** 30/04/2024
+- **Término:** 29/04/2024 
 
 **Backlog da Sprint:**
 
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
-| Criar BackEnd da AuthorizeLocalizationPage | Ana Júlia | Concluído |
+| Criar BackEnd da AuthorizeLocalizationPage | Ana Júlia e Kece| Em execução |
 | Revisar CSS de todas as páginas e fazer ajustes necessários| Bárbara Beatriz, Beatriz Lins | Em execução |
 | Estudar sobre responsividade | Bárbara Beatriz, Beatriz Lins | Em execução |
 | Ajustar os componentes e Header e Footer e ajustar caminhos dos botões| Beatriz Lins | Concluído |
