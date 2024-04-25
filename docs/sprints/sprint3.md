@@ -17,5 +17,5 @@ O objetivo da sprint 3 é realizar a prototipação da interface do projeto no F
 | Protótipo Figma | Bárbara Beatriz | Concluído |
 | Protótipo Figma | Beatriz Lins | Concluído |
 | Elicitação de Requisitos e Organização da documentação | Catlen Cleane | Concluído |
-| Elicitação de Rquisitos e Modelagem banco de dados | Izabelle Mour | Concluído |
+| Elicitação de Requisitos e Modelagem banco de dados | Izabelle Mour | Concluído |
 
