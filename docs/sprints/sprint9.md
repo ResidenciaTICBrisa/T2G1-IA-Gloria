@@ -12,7 +12,7 @@ O objetivo da sprint 9 é desenvolver o BackEnd das páginas de formulário e co
 **Backlog da Sprint:**
 
 | Descrição | Responsável | Status |
-|------------|-------------|-----------------------|
+|-----------|-------------|--------|
 | Versão Web resposiva das páginas:  RegistrationInformationPage e HomePage | Bárbara Beatriz | Não iniciado |
 | Versão Web resposiva das páginas: FormAboutViolencePage, FormClassifyViolencePage e FormStatePage | Beatriz Lins | Não iniciado |
 | Desenvolver BackEnd da página FormClassifyViolencePage| Ana Júlia e Kece Line | Não iniciado |
