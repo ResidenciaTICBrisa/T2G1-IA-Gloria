@@ -24,3 +24,4 @@ O objetivo da sprint 7 é densenvolver o código em Typescripte do backend das p
 =======
 | Organizar apresentação para o FLISol | Todos os membros | Em execução |
 >>>>>>> d130b5be8a7ed0728265ec0893a4524e76d235f3
+| Roadmap da primeira release | Kece, Catlen e Bárbara | Concluído 
