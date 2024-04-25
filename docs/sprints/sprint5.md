@@ -2,7 +2,7 @@
 <hr style="border: 0; height: 1px; background-color: #000000;">
 
 **Objetivo da Sprint:**
-O objetivo da sprint 5 é desenvolver o HTML das páginas principais, corrigir a documentação com as sugestões da primeira release e começar a desenvolver o backend.  
+O objetivo da sprint 5 é desenvolver o HTML e o CSS das páginas principais, corrigir a documentação com as sugestões da primeira release e começar a desenvolver o backend.  
 
 **Datas da Sprint:**
 
