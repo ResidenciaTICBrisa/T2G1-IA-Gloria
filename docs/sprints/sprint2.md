@@ -7,7 +7,7 @@ O objetivo da sprint 2 é capacitar a equipe no uso de ferramentas essenciais pa
 **Datas da Sprint:**
 
 - **Início:** 04/03/2024
-- **Término:** 17/03/2024
+- **Término:** 18/03/2024
 
 **Backlog da Sprint:**
 

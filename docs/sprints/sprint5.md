@@ -7,7 +7,7 @@ O objetivo da sprint 5 é desenvolver o HTML e o CSS das páginas principais, co
 **Datas da Sprint:**
 
 - **Início:** 08/04/2024
-- **Término:** 14/04/2024
+- **Término:** 15/04/2024
 
 **Backlog da Sprint:**
 

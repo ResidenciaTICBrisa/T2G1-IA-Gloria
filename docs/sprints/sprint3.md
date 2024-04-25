@@ -7,7 +7,7 @@ O objetivo da sprint 3 é realizar a prototipação da interface do projeto no F
 **Datas da Sprint:**
 
 - **Início:** 18/03/2024
-- **Término:** 24/03/2024
+- **Término:** 25/03/2024
 
 **Backlog da Sprint:**
 

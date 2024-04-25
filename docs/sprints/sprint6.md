@@ -3,15 +3,10 @@
 
 
 **Objetivo da Sprint:**
-O objetivo da sprint 6 continuar no desenvolvimento do código e  em HTML e CSS das páginas principais, configurar o Banco de Dados, PostgreSQL e o Prisma em todas as máquinas  e continuar no desenvolvimento do código em Typescript para o backend.  
-O objetivo da sprint 6 é desenvolvover o CSS das páginas criadas na sprint 7 e configurar o SGBD no computador de todos os membros
-
+O objetivo da sprint 6 continuar no desenvolvimento do código em HTML e CSS das páginas principais, configurar o Banco de Dados, PostgreSQL e o Prisma nas máquinas  de todos os membros e continuar no desenvolvimento do código em Typescript para o backend. 
 
 **Datas da Sprint:**
 
-
-- **Início:** 15/04/2024 
-- **Término:** 21/04/2024 
 - **Início:** 15/04/2024
 - **Término:** 22/04/2024
 
@@ -23,20 +18,11 @@ O objetivo da sprint 6 é desenvolvover o CSS das páginas criadas na sprint 7 e
 |-----------|-------------|--------|
 |Configuração do Banco de Dados, PostgreSQL e do Prisma| Ana Júlia, Bárbara, Beatriz Lins, Catlen e Kece | Concluído |
 |CSS das páginas: EmergencyPage, KnowMorePage e criação do componente FormIndex com seus respectivos values| Bárbara e Beatriz | Concluído |
-|------------|-------------|-----------------------|
-<<<<<<< HEAD
-|  Configuração do Banco de Dados, PostgreSQL e do Prisma| Ana Júlia | Concluído |
-|  | Bárbara Beatriz | Concluído |
-=======
-| CSS das páginas: EmergencyPage, KnowMorePage e criação do componente FormIndex com seus respectivos values| Bárbara Beatriz | Concluído |
-|Instalação do Postgres | Ana Júlia, Bárbara Beatriz, Beatriz Lins, Catlen e Kece | Concluído
-|Criar tutorial para instalar Postgres e auxiliar demais membros | Izabelle Mour | Concluído
->>>>>>> bc0782cee22f14053cd7735d46878383e2daf49a
+|Criar tutorial para instalar Postgres e auxiliar demais membros | Izabelle Mour | Concluído|
 | HTML e CSS das páginas: HomePage e WhatToDoPage, e ajustes dos CSS's de todas as páginas  | Beatriz Lins | Concluído |
 |Estudo de Typescript| Catlen Cleane e Kece  | Concluído |
-|Instalação do Postgres| Ana Júlia, Bárbara Beatriz, Catlen, Beatriz Lins e Kece| Concluído|
-| Últimos ajustes no banco de dados e início do desenvolvimento do backend da página de Estado | Izabelle Mour e Catlen | Concluído |
-| Desenvolvimento do back da página de Estado  | Catlen Cleane | Concluído |
+| Últimos ajustes no banco de dados e continuação do desenvolvimento do backend da página FormState | Izabelle Mour e Catlen | Concluído |
+
 
 
 

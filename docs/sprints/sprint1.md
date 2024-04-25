@@ -7,7 +7,7 @@ O objetivo da sprint 1 é que toda a equipe configure as novas máquinas com o s
 **Datas da Sprint:**
 
 - **Início:** 19/02/2024
-- **Término:** 03/03/2024
+- **Término:** 04/03/2024
 
 **Backlog da Sprint:**
 
