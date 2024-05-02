@@ -6,8 +6,8 @@ O objetivo da sprint 10 é organizar as Sprints até a próxima release.
 
 **Datas da Sprint:**
 
-- **Início:** 15/05/2023
-- **Término:** 22/05/2023
+- **Início:** 13/05/2023
+- **Término:** 20/05/2023
 
 **Backlog da Sprint:**
 
