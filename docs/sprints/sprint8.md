@@ -17,6 +17,6 @@ O objetivo da sprint 8 é dar continuidade ao desenvolvimento do BackEnd das pá
 |  Versão Web responsiva das páginas: EmergencyPage, KnowMorePage e ThankYouPage | Bárbara Beatriz | Não iniciado |
 | Versão web responsiva das páginas: AuthorizeLocalizationPage, WhatToDoPage, ViolenceTypesPage, HomePage e FormsPages | Beatriz Lins | Concluído |
 | Continuar BackEnd da FormStatePage | Catlen Cleane e Izabelle Mour| Não iniciado |
-| Apresentação de slides para a segunda release | Kece | Não iniciado |
+| Apresentação de slides para a segunda release | Kece | Concluído |
 
 
