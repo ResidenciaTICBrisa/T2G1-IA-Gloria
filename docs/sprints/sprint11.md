@@ -18,5 +18,7 @@ Backend: Colocar cidade no banco de dados; implementar a identificação do usu�
 | Implementar a opção de ver o mapa sem a autorização do usuário | Bárbara Beatriz e Beatriz Lins| Não iniciado |
 | Ajuste da lista de violência: adição de violência patrimonial| Kece Line e Izabelle Rivas | Em execução  |
 | Caixa da cidade no formulário| Bárbara Beatriz e Beatriz Lins| Em execução  |
+| Atualização do roadmap| Kece Line Oliveira| Não iniciado  |
+| Fechar sprint 10 e alinhamento de equipe| Kece Line Oliveira| Não iniciado  |
 
 
