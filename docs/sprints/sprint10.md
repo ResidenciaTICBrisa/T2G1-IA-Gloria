@@ -13,11 +13,11 @@ O objetivo da sprint 10 é organizar as Sprints até a próxima release.
 
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
-|  | Ana Júlia | Não iniciado  |
-| Ajustar CSS das páginas Web responsivas | Bárbara Beatriz e Beatriz Lins | Não iniciado  |
+| Considerações a respeito da identificação do usuário para aplicar na próxima sprint decidido em reunião com o cliente | Ana Júlia e Kece| Concluído  |
+| Ajustar CSS das páginas Web responsivas | Bárbara Beatriz e Beatriz Lins | Em execução  |
 |  | Beatriz Lins | Não iniciado  |
 |  | Catlen Cleane | Não iniciado  |
-|  | Izabelle Mour | Não iniciado |
-|  | Kece Line | Não iniciado  |
-| Criar Sprints até a  release 2| Todos os membros | Não iniciado 
+| Ajustar a lista de violência e incluir Violência Patrimonial e enviar, junto ao diagnóstico, via meio oficial de comunicação para os clientes | Izabelle Mour e Kece Line| Em execução |
+| Atualização das sprints para a segunda release, do github, ata da reunião| Kece Line | Em execução  |
+
 
