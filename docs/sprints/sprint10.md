@@ -2,7 +2,7 @@
 <hr style="border: 0; height: 1px; background-color: #000000;">
 
 **Objetivo da Sprint:**
-O objetivo da sprint 10 é organizar as Sprints até a próxima release. 
+O objetivo da sprint 11 é desenvolver o frontend do mapa e prosseguir com o desenvolvimento backend das páginas pendentes. 
 
 **Datas da Sprint:**
 
@@ -14,10 +14,9 @@ O objetivo da sprint 10 é organizar as Sprints até a próxima release.
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
 |  | Ana Júlia | Não iniciado  |
-| Ajustar CSS das páginas Web responsivas | Bárbara Beatriz e Beatriz Lins | Não iniciado  |
-|  | Beatriz Lins | Não iniciado  |
+| Função de filtro do mapa | Bárbara Beatriz e Beatriz Lins | Não iniciado  |
+| Página de informações gerais do mapa e função de pegar o endereço | Beatriz Lins | Concluído  |
 |  | Catlen Cleane | Não iniciado  |
 |  | Izabelle Mour | Não iniciado |
 |  | Kece Line | Não iniciado  |
-| Criar Sprints até a  release 2| Todos os membros | Não iniciado 
 

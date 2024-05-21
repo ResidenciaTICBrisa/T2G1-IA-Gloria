@@ -13,9 +13,9 @@ O objetivo da sprint 9 é desenvolver o BackEnd das páginas de formulário e in
 
 | Descrição | Responsável | Status |
 |-----------|-------------|--------|
-| Integração da API  | Bárbara Beatriz | Em execução |
-| Integração da API | Beatriz Lins | Em execução |
-| Desenvolver BackEnd da página FormClassifyViolencePage| Ana Júlia e Kece Line | Em execução |
-| Desenvolver BackEnd da página FormAboutViolencePage| Izabelle Mour e Catlen Cleane| Em execução |
-| Atualizar documentação e criar material de apresentação da segunda release | Todos os membros | Em execução |
+| Estudo de React Leaflet  | Bárbara Beatriz | Concluído |
+| Integração do mapa com React Leaflet | Beatriz Lins | Concluído |
+| Desenvolver BackEnd da página FormClassifyViolencePage| Ana Júlia e Kece Line | Concluído |
+| Desenvolver BackEnd da página FormAboutViolencePage| Izabelle Mour e Catlen Cleane| Concluído |
+| Atualizar documentação e criar material de apresentação da segunda release | Todos os membros | Concluído |
 
