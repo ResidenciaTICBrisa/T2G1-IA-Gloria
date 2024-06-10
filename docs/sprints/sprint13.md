@@ -1,13 +1,13 @@
-# **Sprint 12**
+# **Sprint 13**
 <hr style="border: 0; height: 1px; background-color: #000000;">
 
 **Objetivo da Sprint:**
-O objetivo da sprint 12 é começar a integração do frontend com backend, e implementar as coordenadas selecionadas por cidade e estado no mapa.
+O objetivo da sprint 13 é prosseguir com a integração do frontend com backend, resolver os conflitos de coordenadas do mapa e começar a responsividade desktop das páginas.
 
 **Datas da Sprint:**
 
-- **Início:** 03/06/2024
-- **Término:** 10/06/2024
+- **Início:** 10/06/2024
+- **Término:** 17/06/2024
 
 **Backlog da Sprint:**
 
@@ -16,7 +16,7 @@ O objetivo da sprint 12 é começar a integração do frontend com backend, e im
 |  | Ana Júlia e Kece| Não iniciado |
 |  | Izabelle Rivas e Catlen Cleane| Em execução  |
 |  | Bárbara Beatriz e Beatriz Lins| Não iniciado |
-| Implementação do acesso a localização do usuário e das coordenadas do mapa pela seleçao de cidade e estado | Beatriz Lins | Concluído |
+| Responsividade desktop das páginas: HomePage | Beatriz Lins | Não iniciado |
 |  | Bárbara Beatriz | Não iniciado |
 |  | Kece Line e Izabelle Rivas | Em execução  |
 |  | Kece Line Oliveira| Não iniciado  |
