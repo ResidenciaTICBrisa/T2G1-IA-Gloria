@@ -13,13 +13,11 @@ O objetivo da sprint 13 é prosseguir com a integração do frontend com backend
 
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
-|  | Ana Júlia e Kece| Não iniciado |
-|  | Izabelle Rivas e Catlen Cleane| Em execução  |
-|  | Bárbara Beatriz e Beatriz Lins| Não iniciado |
-| Responsividade desktop das páginas: HomePage | Beatriz Lins | Não iniciado |
-|  | Bárbara Beatriz | Não iniciado |
-|  | Kece Line e Izabelle Rivas | Em execução  |
-|  | Kece Line Oliveira| Não iniciado  |
-|  | Kece Line Oliveira| Não iniciado  |
-
+| BackEnd da FormStatePage: excluir as funções de respositório para que sejam realizadas apenas validações e retornos | Catlen e Izabelle | Concluída | 
+| Integração do Front-end com o Back-end da página MapFilter | Catlen e Izabelle | Concluída | 
+| Atualizar estrutura de banco de dados | Catlen e Izabelle | Concluída | 
+Gerar fingerprint no Front-end da MapPage | Ana Júlia, Catlen e Kece | Concluída | 
+|Responsividade desktop da HomePage e WhatToDoPage | Beatriz | Em execução | 
+Criar um componente para mudar o texto da FormStatePage | Bárbara | Em execução 
+| Melhorar visual das mensagens de erro | Bárbara | Concluída |
 

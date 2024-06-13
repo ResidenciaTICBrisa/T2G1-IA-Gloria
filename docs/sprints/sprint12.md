@@ -13,13 +13,9 @@ O objetivo da sprint 12 é começar a integração do frontend com backend, e im
 
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
-|  | Ana Júlia e Kece| Não iniciado |
-|  | Izabelle Rivas e Catlen Cleane| Em execução  |
-|  | Bárbara Beatriz e Beatriz Lins| Não iniciado |
-| Implementação do acesso a localização do usuário e das coordenadas do mapa pela seleçao de cidade e estado | Beatriz Lins | Concluído |
-|  | Bárbara Beatriz | Não iniciado |
-|  | Kece Line e Izabelle Rivas | Em execução  |
-|  | Kece Line Oliveira| Não iniciado  |
-|  | Kece Line Oliveira| Não iniciado  |
-
+|Implementação da coordenadas de acordo com a seleção de estado e cidade | Bárbara e Beatriz | Concluída |
+|Exibição da localização do usuário no Mapa | Beatriz | Concluída | 
+Implementação de armazenamento do formulário no Local Storage | Beatriz | Concluída | 
+Integração do FrontEnd com o BackEnd da FormAboutViolence | Bárbara, Catlen, Izabelle e Kece | Concluída 
+Estudar media querie para trabalhar com a responsividade das páginas | Bárbara e Beatriz | Concluído 
 
