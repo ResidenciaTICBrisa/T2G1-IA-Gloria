@@ -48,7 +48,6 @@ const AuthorizeLocalizationPage = () => {
       // Geolocation not supported
       console.error("Geolocation is not supported by this browser.");
     }
-  };
 
   const handleNotAuthorize = () => {
     var formStateValue = ' ';
@@ -83,6 +82,5 @@ const AuthorizeLocalizationPage = () => {
       </main>
     </div>
   );
-};
-
+}
 export default AuthorizeLocalizationPage;

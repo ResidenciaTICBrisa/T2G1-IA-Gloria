@@ -7,6 +7,9 @@ import { RxDividerHorizontal } from "react-icons/rx";
 import LocationIcon from "../assets/location_icon.png"; 
 import '../styles/MapPage.css';
 import FingerprintJS from '@fingerprintjs/fingerprintjs';
+import axios from "axios";
+
+const URL = "http://localhost:4000/map-page";
 
 function Mapa() {
   const navigate = useNavigate();
@@ -20,6 +23,26 @@ function Mapa() {
     console.log('Fingerprint:', fingerprint);
 
     localStorage.setItem('fingerprint', fingerprint);
+
+    axios.post(URL, {
+      "fingerprint" : fingerprint
+
+    }, {
+      headers: {
+      'Content-Type': 'application/json'
+    }
+    })
+    .then(response => {
+
+      navigate("/thank-you");
+
+      console.log(response);
+    } )
+
+    .catch(error => {
+      const errorResponse = JSON.parse(error.request.response);
+      console.log(errorResponse);
+    })
   }
 
   const customIcon = icon({
