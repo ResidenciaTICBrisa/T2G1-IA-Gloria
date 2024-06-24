@@ -27,7 +27,7 @@ const ThankYouPage = () => {
                     <button className="button-know-more" onClick={() => navigate("/violence-types")}>Quero saber mais</button>
                 </section>
 
-                <button className="footer" onClick={() => navigate("/home-page")}>Finalizar</button>
+                <button className="footer" onClick={() => navigate("/")}>Finalizar</button>
 
             </main>
         </section>

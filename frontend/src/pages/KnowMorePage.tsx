@@ -62,7 +62,7 @@ const KnowMorePage = () => {
                 </main>
                 
                 <section className="button-know">
-                    <button className="footer" onClick={() => navigate("/home-page")}>Finalizar</button>
+                    <button className="footer" onClick={() => navigate("/")}>Finalizar</button>
                 </section>
             </section>
     );
