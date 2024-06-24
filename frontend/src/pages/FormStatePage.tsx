@@ -10,7 +10,7 @@ import ErrorMessage from "../components/ErrorMessage";
 import FormClassifyViolencePage from "./FormClassifyViolencePage";
 import { RxValue } from "react-icons/rx";
 
-const URL = "http://localhost:4000/form-state"
+const URL = process.env.BACKEND_URL;
 
 const FormStatePage = () => {
   const navigate = useNavigate();
@@ -59,7 +59,7 @@ const FormStatePage = () => {
       setError("Por favor, selecione o Estado e a Cidade.");
     } else {
 
-      const flag = await axios.post(URL, {
+      const flag = await axios.post(`${URL}/form-state`, {
           // Corpo da requisição contendo os dados a serem enviados, deve ser igual ao json esperado pelo back
           "uf_state": selectedState,
           "city": selectedCity

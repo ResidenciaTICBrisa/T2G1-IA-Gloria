@@ -5,7 +5,7 @@ import FormIndex from "../components/FormIndex";
 import axios from "axios";
 import { RxCodesandboxLogo } from "react-icons/rx";
 
-const URL = "http://localhost:4000/map-filter";
+const URL = process.env.BACKEND_URL;
 
 const AuthorizeLocalizationPage = () => {
   let navigate = useNavigate();
@@ -22,7 +22,7 @@ const AuthorizeLocalizationPage = () => {
   
           if (action === "viewMap") {
             // Realiza a requisição get para pegar todas as ocorrências
-            axios.get(URL)
+            axios.get(`${URL}/map-filter`)
             .then(occurrence_data =>{
               console.log(occurrence_data)
               navigate("/map-filter", { state: { coordinates, action } });

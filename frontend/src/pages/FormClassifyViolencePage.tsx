@@ -7,7 +7,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import ErrorMessage from "../components/ErrorMessage";
 import axios from "axios";
 
-const URL = "http://localhost:4000/form-classify-violence"
+const URL = process.env.BACKEND_URL;
 
 const FormClassifyViolencePage = () => {
   const navigate = useNavigate();
@@ -63,7 +63,7 @@ const FormClassifyViolencePage = () => {
       violenceOption = violenceOption.slice(0,-1)
       console.log(violenceOption)
 
-      axios.post(URL, {
+      axios.post(`${URL}/form-classify-violence`, {
         "violencesoptions": violenceOption
       }, {
         headers: {

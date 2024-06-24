@@ -7,7 +7,7 @@ import FormIndex from "../components/FormIndex";
 import axios from "axios";
 import ErrorMessage from "../components/ErrorMessage";
 
-const URL = "http://localhost:4000/form-about-violence"
+const URL = process.env.BACKEND_URL;
 
 const FormAboutViolencePage = () => {
     const navigate = useNavigate();
@@ -57,7 +57,7 @@ const handleNext = () => {
         console.log(date, ageRange, time);
 
         // Envia uma requisição POST usando axios para a URL especificada
-        axios.post(URL, {
+        axios.post(`${URL}/form-about-violence`, {
             // Corpo da requisição contendo os dados a serem enviados, deve ser igual ao json esperado pelo back
             "date_violence_s": date,
             "agegroup": ageRange,
