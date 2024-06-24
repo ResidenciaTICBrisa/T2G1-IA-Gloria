@@ -1,6 +1,5 @@
 import { OccurrenceData_bd } from '../protocols';
-import { occurrence, PrismaClient } from '@prisma/client'
-import { Decimal } from '@prisma/client/runtime/library';
+import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient();
 // create id_user
