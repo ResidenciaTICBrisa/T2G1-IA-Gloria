@@ -22,35 +22,51 @@ main {
 }
 
 .header-items,
-.header-map-items
-{
+.header-map-items {
   display: flex; 
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center; 
+  position: relative;
+  width: 100%; 
+  margin-bottom: 1.5vh;
 }
 
 /* Botão de Voltar */
-.button-back, 
 .button-map-back {
-  display: block;
-  align-items: flex-start;
   background-color: transparent; 
   border: none;
-  width: 8vh;
-  height: auto;
-  margin-left: -1rem;
+  width: 2rem; 
+  height: 2rem;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; 
+  margin-top: 6vh;
+}
+
+.button-back {
+  background-color: transparent; 
+  border: none;
+  width: 2rem; 
+  height: 2rem;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; 
 }
 
 .icon-back {
-  width: 8vw; 
+  width: 100%; 
   height: auto; 
   color: white;
 }
 
 .reset-svg{
   stroke: none;
-
 }
+
 .button-map-back .icon-back{
   color: #612368;
 }
@@ -58,7 +74,7 @@ main {
 /* Botão da Logo */
 .button-logo {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center; 
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -67,14 +83,6 @@ main {
 .logo {
   width: 30vw; 
   height: auto;
-}
-
-.logo-map {
-  width: 25vw;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*Componente FormIndex*/ 
@@ -111,29 +119,22 @@ main {
   color: white;
 }
 
-  .header-items .header-map-items {
-    width: 85vw;
+.header-items .header-map-items {
+  width: 50%;
+}
+
+@media (min-width: 500px) {
+  .logo { 
+    width: 30%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .logo { 
+    width: 25%;
   }
 
-  @media (min-width: 600px) {
-    .logo { 
-        width: 35%;
-        margin-top: -3vh;
-    }
-
-    .button-back .icon-back{
-      width: 7vh;
-      margin-top: -3vh;
-    }
+  .button-back {
+    width: 6.5%;
   }
-
-  @media (min-width: 1000px) {
-    .logo { 
-      margin-top: -4vh;
-      width: 25%;
-    }
-
-    .button-back .icon-back {
-      margin-top: -4vh;
-    }
-  }
+}
