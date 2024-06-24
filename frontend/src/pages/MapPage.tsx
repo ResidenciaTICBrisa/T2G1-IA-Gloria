@@ -20,8 +20,7 @@ function Mapa() {
     const fp = await FingerprintJS.load();
     const result = await fp.get();
     const fingerprint = result.visitorId;
-    console.log('Fingerprint:', fingerprint);
-
+    
     localStorage.setItem('fingerprint', fingerprint);
 
     axios.post(URL, {
@@ -35,14 +34,16 @@ function Mapa() {
     .then(response => {
 
       navigate("/thank-you");
-
+      console.log("sucesso");
       console.log(response);
     } )
 
     .catch(error => {
       const errorResponse = JSON.parse(error.request.response);
+      console.log("derrota")
       console.log(errorResponse);
     })
+    console.log('Fingerprint:', fingerprint);
   }
 
   const customIcon = icon({
