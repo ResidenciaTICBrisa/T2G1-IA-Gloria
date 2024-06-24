@@ -11,8 +11,13 @@ import { number } from "joi";
 
 
 async function createOccur(occurrencedata: OccurrenceData) {
-    // gera id_user para o fingerprint
-    const id_user = await MapPageRepository.createUser(occurrencedata.fingerprint);
+    let id_user: bigint;
+    try {
+        // gera id_user para o fingerprint
+        id_user = await MapPageRepository.createUser(occurrencedata.fingerprint);
+    } catch (error) {
+        throw repositoryError('"User Fingerprint"', 'createUser');
+    }
 
     //validação dos dados de novo (para evitar envios maliciosos)
     await StatePageService.validateStateOccur({uf_state:occurrencedata.state_violence,city:occurrencedata.city_violence});
