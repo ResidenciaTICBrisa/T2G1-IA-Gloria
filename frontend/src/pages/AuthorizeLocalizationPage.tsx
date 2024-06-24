@@ -12,41 +12,43 @@ const AuthorizeLocalizationPage = () => {
   let location = useLocation();
   const { action } = location.state || {};
 
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const coordinates = {
-            lat: position.coords.latitude,
-            lon: position.coords.longitude
-          };
-  
-          if (action === "viewMap") {
-            // Realiza a requisição get para pegar todas as ocorrências
-            axios.get(URL)
-            .then(occurrence_data =>{
-              console.log(occurrence_data)
-              navigate("/map-filter", { state: { coordinates, action } });
-            })
-            .catch(error =>{
-              console.log(error);
-              console.log("Serviço indisponível");
-            })
-            
-          } else if (action === "register") {
-            navigate("/form-about-violence", { state: { coordinates, action } });
-          } else {
-            console.error("Unsupported action.");
+    const handleAuthorize = async () => {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            const coordinates = {
+              lat: position.coords.latitude,
+              lon: position.coords.longitude
+            };
+    
+            if (action === "viewMap") {
+              // Realiza a requisição get para pegar todas as ocorrências
+              axios.get(URL)
+              .then(occurrence_data =>{
+                console.log(occurrence_data)
+                navigate("/map-filter", { state: { coordinates, action } });
+              })
+              .catch(error =>{
+                console.log(error);
+                console.log("Serviço indisponível");
+              })
+              
+            } else if (action === "register") {
+              navigate("/form-about-violence", { state: { coordinates, action } });
+            } else {
+              console.error("Unsupported action.");
+            }
+          },
+          (error) => {
+            // Handle error
+            console.error("Error code:", error.code, " - ", error.message);
+            console.error("Geolocation access denied or not available.");
           }
-        },
-        (error) => {
-          // Handle error
-          console.error("Error code:", error.code, " - ", error.message);
-          console.error("Geolocation access denied or not available.");
-        }
-      );
-    } else {
-      // Geolocation not supported
-      console.error("Geolocation is not supported by this browser.");
+        );
+      } else {
+        // Geolocation not supported
+        console.error("Geolocation is not supported by this browser.");
+      }
     }
 
   const handleNotAuthorize = () => {
