@@ -35,13 +35,11 @@ export type OccurrenceData_bd = {
     violence_type: string
 }
 export type ViolenceState = {
-    id_occur: bigint,
     uf_state:string,
     city: string
 };
 // Tipo para receber no json (json não tem tipo data)
 export type AboutViolence = {
-    id_occur: bigint,
     date_violence_s: string,
     agegroup: string,
     time_violence_s: string,
@@ -50,10 +48,4 @@ export type AboutViolence = {
 export type ClassifyViolencePage = {
     violencesoptions: string
 }
-export type LocalViolence = {
-    id_occur: bigint,
-    latitude: number,
-    longitude: number
-};
-
 
