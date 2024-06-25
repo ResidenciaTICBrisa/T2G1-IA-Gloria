@@ -1,4 +1,4 @@
-import { Occurrence, PrismaClient } from '@prisma/client'
+import { occurrence, PrismaClient } from '@prisma/client'
 import { ClassifyViolencePage } from '../protocols';
 
 const prisma = new PrismaClient();
