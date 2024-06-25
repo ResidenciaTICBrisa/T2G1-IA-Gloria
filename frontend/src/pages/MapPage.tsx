@@ -24,8 +24,16 @@ function Mapa() {
     localStorage.setItem('fingerprint', fingerprint);
 
     axios.post(URL, {
-      "fingerprint" : fingerprint
-
+      "fingerprint" : fingerprint,
+      "age_group": localStorage.getItem('ageRange'),
+      "date_violence_s": localStorage.getItem('date'),
+      "time_violence_s": "T" + localStorage.getItem('time') + ":00-03:00",
+      "city_violence": 'Brasilia',
+      "state_violence":'DF',
+      "latitude": -15,
+      "longitude": -15,
+      "violence_options": 'VS1',
+      "violence_type": 'VT1'
     }, {
       headers: {
       'Content-Type': 'application/json'
