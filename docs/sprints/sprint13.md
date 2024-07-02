@@ -17,7 +17,7 @@ O objetivo da sprint 13 é prosseguir com a integração do frontend com backend
 | Integração do Front-end com o Back-end da página MapFilter | Catlen e Izabelle | Concluída | 
 | Atualizar estrutura de banco de dados | Catlen e Izabelle | Concluída | 
 Gerar fingerprint no Front-end da MapPage | Ana Júlia, Catlen e Kece | Concluída | 
-|Responsividade desktop da HomePage e WhatToDoPage | Beatriz | Em execução | 
+|Responsividade desktop da HomePage e WhatToDoPage | Beatriz | Concluída | 
 Criar um componente para mudar o texto da FormStatePage | Bárbara | Concluída 
 | Melhorar visual das mensagens de erro | Bárbara | Concluída |
 
