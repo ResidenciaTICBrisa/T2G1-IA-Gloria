@@ -12,3 +12,5 @@ O objetivo da sprint 17 é...
 
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
+| Colocar os estados e cidades da API Leaflet em ordem alfabética | A definir | Não iniciado | 
+| Capturar o fuso horário do usuário | A definir | Não iniciado | 

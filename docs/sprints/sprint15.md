@@ -18,3 +18,4 @@ O objetivo da Sprint 15 é testar o front-end da aplicação para identificar e 
 | Preenchimento da tabela UserOccurrences | Catlen Cleane e Izabelle Rivas | Concluída | 
 | Integrar Frontend e Backend da página MapPage | Ana Júlia, Bárbara Beatriz, Izabelle Rivas e Kece Line | Concluída | 
 | Correção das rotas e abertura do mapa nas coordenadas corretas | Bárbara Beatriz, Catlen Cleane e Izabelle Rivas | Concluída | 
+|Envio para o Banco de Dados das coordenadas da cidade e estado da ocorrência | Bárbara Beatriz, Catlen Cleane e Izabelle Rivas | Concluída | 
