@@ -63,3 +63,5 @@ nav:
   - Diagramas:
     - Fluxograma da Interface: diagramas/fluxograma_interface.md
     - Arquitetura do Projeto: diagramas/arquitetura.md
+  
+   - Landing Page: lading page/index.html
