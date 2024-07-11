@@ -1,7 +1,7 @@
 <hr style="border: 0; height: 1px; background-color: #000000;">
 
 **Objetivo da Sprint:**
-O objetivo da sprint 17 é... 
+O objetivo da sprint 17 é fazer as correções solicitadas pelo Gustavo do Instituto Glória
 
 **Datas da Sprint:**
 
