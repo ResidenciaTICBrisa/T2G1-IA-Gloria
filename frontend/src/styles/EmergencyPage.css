@@ -2,7 +2,7 @@
 
 .buttons-container-emergency {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center; 
     gap: 3vw;
     align-items: center;
@@ -19,7 +19,7 @@
     border-radius: 1em;
     color: white;
     margin-bottom: 5%;
-    width: 40vw;
+    width: 50vw;
     display: flex;
     justify-content: center; /* Centraliza o texto horizontalmente */
     align-items: center; /* Centraliza o texto verticalmente */

@@ -14,6 +14,11 @@ main {
   width: 80vw;
   height: 80vh; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  padding: 3vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
 }
 
 /*Componentes Header e HeaderMap*/ 
@@ -97,7 +102,7 @@ main {
   background-color: #612368;
   margin-top: 2vh;
 }
- 
+
 .index-purple {
   background-color: #612368;
   color: white;
