@@ -1,7 +1,10 @@
+import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import '../styles/EmergencyPage.css';
 
 const EmergencyPage = () => {
+    const [alertShown, setAlertShown] = useState(false);
+
     const callPolice = () => {
         window.location.href = 'tel:190';
     };
@@ -9,6 +12,15 @@ const EmergencyPage = () => {
     const callWomanService = () => {
         window.location.href = 'tel:180';
     };
+
+    useEffect(() => {
+        if (!alertShown && window.innerWidth > 768) {
+            setAlertShown(true);
+            setTimeout(() => {
+                alert("Esta funcionalidade está disponível apenas para dispositivos móveis.");
+            }, 0);
+        }
+    }, [alertShown]);
 
     return (
         <section>
