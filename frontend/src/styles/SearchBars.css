@@ -1,0 +1,10 @@
+/* Centraliza a barra de pesquisa no topo
+.leaflet-control-geosearch {
+    width: 40vw;
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1vh auto;
+}
+ */

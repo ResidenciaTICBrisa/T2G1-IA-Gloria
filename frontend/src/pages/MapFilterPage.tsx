@@ -9,6 +9,9 @@ import HeaderMap from '../components/HeaderMap';
 import Pin from '../components/Pin';
 // import { text } from 'stream/consumers';
 import LegendMapFilter from '../components/LegendMapFilter';
+import { OpenStreetMapProvider } from 'leaflet-geosearch';
+import SearchBar from '../components/SearchBar';
+
 
 function MapFilter() {
   const navigate = useNavigate();
@@ -17,6 +20,7 @@ function MapFilter() {
   const [isFilterVisible, setIsFilterVisible] = useState(false);
   const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
   const [selectedFiltersBackend, setSelectedFiltersBackend] = useState<string[]>([]);
+
 
   const violenceMapping: { [key: string]: string } = {
     VT1: 'Física',
@@ -86,6 +90,14 @@ function MapFilter() {
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+
+        <SearchBar
+          provider={new OpenStreetMapProvider({
+            params:{
+              addressdetails: 1
+            }
+          })}
         />
       
         {formated_occurrence_data.map((obj: { latitude: number, longitude: number, violence_type: string }, index: number) => (
