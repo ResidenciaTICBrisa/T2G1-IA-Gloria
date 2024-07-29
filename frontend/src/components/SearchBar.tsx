@@ -15,6 +15,7 @@ const SearchBar= props => {
     useEffect(() => {
         const searchControl = new GeoSearchControl({
             provider: provider,
+            style: "bar",
             showMarker: false,
             showPopup: false,
             retainZoomLevel: false,

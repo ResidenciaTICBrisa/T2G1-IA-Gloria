@@ -11,6 +11,7 @@ import Pin from '../components/Pin';
 import LegendMapFilter from '../components/LegendMapFilter';
 import { OpenStreetMapProvider } from 'leaflet-geosearch';
 import SearchBar from '../components/SearchBar';
+import { IoCloseCircleOutline } from "react-icons/io5";
 
 
 function MapFilter() {
@@ -54,14 +55,16 @@ function MapFilter() {
 
   return (
     <div className="map">
-      <div className="overlay-container">
-        <HeaderMap />
+      <div className="overlay-container-filter">
+          <div className='header-map'>
+            <HeaderMap />
+          </div>
 
-        <div className="map-title">
-          <p className="map-text" onClick={() => setIsFilterVisible(!isFilterVisible)}>
-            <VscFilterFilled className='custom-filter-icon' /> {isFilterVisible ? 'SAIR' : 'FILTRAR'}
-          </p>
-        </div>
+          <div className="map-title-filter">
+            <p className="map-text-filter" onClick={() => setIsFilterVisible(!isFilterVisible)}>
+              {isFilterVisible ? <IoCloseCircleOutline />: <VscFilterFilled />}
+            </p>
+          </div>
 
         {isFilterVisible && (
           <div className="filter-content">
@@ -79,7 +82,9 @@ function MapFilter() {
         {selectedFilters.length > 0 && (
           <p className="select-filter-content"><span> </span>{selectedFilters.join(', ')}</p>
         )}
-      </div>
+        
+        </div>
+
 
       <MapContainer
         center={coordinates ? [coordinates.lat, coordinates.lon] : [-15.794, -47.882]}
@@ -91,14 +96,15 @@ function MapFilter() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-
-        <SearchBar
-          provider={new OpenStreetMapProvider({
-            params:{
-              addressdetails: 1
-            }
-          })}
-        />
+        
+      <SearchBar
+              provider={new OpenStreetMapProvider({
+                params:{
+                  addressdetails: 1
+                }
+              })}
+            />
+            
       
         {formated_occurrence_data.map((obj: { latitude: number, longitude: number, violence_type: string }, index: number) => (
           <Marker position={[obj.latitude, obj.longitude]} icon={Pin(obj.violence_type)} key={index}>

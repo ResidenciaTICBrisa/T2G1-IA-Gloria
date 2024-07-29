@@ -1,10 +1,8 @@
-/* Centraliza a barra de pesquisa no topo
-.leaflet-control-geosearch {
-    width: 40vw;
+.leaflet-geosearch-bar {
+    position: relative; 
+    top: 10.5vw;
+    left: -5vw;
+    width: 30vw;
     height: 5vh;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin: 1vh auto;
+    z-index: 500; 
 }
- */
