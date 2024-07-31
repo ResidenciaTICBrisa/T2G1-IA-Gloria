@@ -8,7 +8,6 @@ import AuthorizeLocalizationPage from './pages/AuthorizeLocalizationPage';
 import WhatToDoPage from './pages/WhatToDoPage';
 import EmergencyPage from './pages/EmergencyPage';
 import KnowMorePage from './pages/KnowMorePage';
-import ViolenceTypesPage from './pages/ViolenceTypesPage';
 import ThankYouPage from './pages/ThankYouPage';
 import Mapa from './pages/MapPage';
 import MapFilter from './pages/MapFilterPage';
@@ -26,7 +25,6 @@ export default function App() {
             <Route path="/what-to-do" element={<WhatToDoPage />} />
             <Route path="/emergency" element={<EmergencyPage />} />
             <Route path="/know-more" element={<KnowMorePage />} />
-            <Route path="/violence-types" element={<ViolenceTypesPage />} />
             <Route path="/thank-you" element={<ThankYouPage />} />
             <Route path="/map-page" element={<Mapa />} />
             <Route path="/map-filter" element={<MapFilter />} />
