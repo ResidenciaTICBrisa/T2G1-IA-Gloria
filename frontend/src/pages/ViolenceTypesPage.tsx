@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import { useState } from 'react';
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
+import { FaQuestionCircle } from "react-icons/fa";
 import '../styles/ViolenceTypesPage.css'
 import '../styles/Footer.css'
 import { useNavigate } from 'react-router-dom';
@@ -42,6 +43,7 @@ const ViolenceTypesPage = () => {
                                 <IoIosArrowUp className="iconFisical" /> : 
                                 <IoIosArrowDown className="iconFisical" />}
                             </p>
+
                             {openSection === "fisicalViolence" && (
                                 <p className="dropdownText"> Espancamento, tortura, lesões, ferimentos, estrangulamento, sufocamento. </p>
                             )}
@@ -49,9 +51,10 @@ const ViolenceTypesPage = () => {
 
                         <section className="moralViolence">
                             <p className="dropdownTitle" onClick={() => toggleSection("moralViolence")}>
-                                Violência Moral {openSection === "moralViolence" ? 
+                                {openSection === "moralViolence" ? 
                                 <IoIosArrowUp className="iconMoral"/> : 
                                 <IoIosArrowDown className="iconMoral"/>}
+                                 Violência Moral 
                             </p>
                             {openSection === "moralViolence" && (
                                 <p className="dropdownText"> Calúnia, difamação, injúria, críticas mentirosas, exposição, acusações. </p>
@@ -60,9 +63,10 @@ const ViolenceTypesPage = () => {
 
                         <section className="psychologicalViolence">
                             <p className="dropdownTitle" onClick={() => toggleSection("psychologicalViolence")}>
-                                Violência Psicológica {openSection === "psychologicalViolence" ? 
+                                 {openSection === "psychologicalViolence" ? 
                                 <IoIosArrowUp className="iconPsychological"/> : 
                                 <IoIosArrowDown className="iconPsychological"/>}
+                                Violência Psicológica
                             </p>
                             {openSection === "psychologicalViolence" && (
                                 <p className="dropdownText"> Dano emocional, diminuição da autoestima, prejuízo ao pleno desenvolvimento da mulher.  </p>
@@ -71,9 +75,10 @@ const ViolenceTypesPage = () => {
 
                         <section className="patrimoniallViolence">
                             <p className="dropdownTitle" onClick={() => toggleSection("patrimoniallViolence")}>
-                                Violência Patrimonial {openSection === "patrimoniallViolence" ? 
+                                {openSection === "patrimoniallViolence" ? 
                                 <IoIosArrowUp className="iconPatrimonial"/> : 
                                 <IoIosArrowDown className="iconPatrimonial"/>}
+                                Violência Patrimonial 
                             </p>
                             {openSection === "patrimoniallViolence" && (
                                 <p className="dropdownText"> Retenção, subtração, destruição parcial ou total de seus objetos. </p>
@@ -82,9 +87,10 @@ const ViolenceTypesPage = () => {
 
                         <section className="sexualViolence">
                             <p className="dropdownTitle" onClick={() => toggleSection("sexualViolence")}>
-                                Violência Sexual {openSection === "sexualViolence" ? 
+                                 {openSection === "sexualViolence" ? 
                                 <IoIosArrowUp className="iconSexual"/> : 
                                 <IoIosArrowDown className="iconSexual"/>}
+                                Violência Sexual
                             </p>
                             {openSection === "sexualViolence" && (
                                 <p className="dropdownText"> Prática de relação sexual não desejada mediante intimidação, ameaça ou coação. </p>
@@ -93,7 +99,55 @@ const ViolenceTypesPage = () => {
                     </section>
 
                     <section className="faq">
+                        <h2> <FaQuestionCircle /> Perguntas Frequentes</h2>
+                        <section className="faq-section">
+                            <p className="dropdownTitleFaq" onClick={() => toggleSection("question1")}>
+                                {openSection === "question1" ? 
+                                <IoIosArrowUp className="iconFaq" /> : 
+                                <IoIosArrowDown className="iconFaq" />}
+                                Se eu realizar um registro, vão conseguir me identificar?
+                            </p>
 
+                            {openSection === "question1" && (
+                                <p className="dropdownTextFaq"> Não, o registro é realizado anonimamente, os dados coletados não contêm informações que possam identificar pessoalmente os usuários. </p>
+                            )}
+                        </section>
+
+                        <section className="faq-section">
+                            <p className="dropdownTitleFaq" onClick={() => toggleSection("question2")}>
+                                {openSection === "question2" ? <IoIosArrowUp className="iconFaq" /> : <IoIosArrowDown className="iconFaq" />}
+                                Quem terá acesso às informações que eu forneço?
+                            </p>
+                            {openSection === "question2" && (
+                                <p className="dropdownTextFaq">
+                                    Seus dados são protegidos por criptografia e medidas de segurança rigorosas. Garantimos que os dados coletados sejam utilizados apenas para análise estatística e para ajudar na prevenção da violência.
+                                </p>
+                            )}
+                        </section>
+
+                        <section className="faq-section">
+                            <p className="dropdownTitleFaq" onClick={() => toggleSection("question3")}>
+                                {openSection === "question3" ? <IoIosArrowUp className="iconFaq" /> : <IoIosArrowDown className="iconFaq" />}
+                                Posso editar ou excluir uma ocorrência depois de registrá-la?
+                            </p>
+                            {openSection === "question3" && (
+                            <p className="dropdownTextFaq">
+                                Não. Uma vez que a ocorrência é registrada, não é possível editar ou excluir as informações.
+                            </p>
+                            )}
+                        </section>
+
+                        <section className="faq-section">
+                            <p className="dropdownTitleFaq" onClick={() => toggleSection("question4")}>
+                                {openSection === "question4" ? <IoIosArrowUp className="iconFaq" /> : <IoIosArrowDown className="iconFaq" />}
+                                Realizar um registro no Mapa da Violência substitui fazer uma ocorrência na delegacia?
+                            </p>
+                            {openSection === "question4" && (
+                            <p className="dropdownTextFaq">
+                                Não. A realização de um registro não substitui uma denúncia policial e os dados que obtemos não são. Além de que não podemos fornecer o apoio e proteção fornecidos ao realizar um boletim de ocorrência. Recomendamos fortemente que o usuário também procure ajuda de profissionais.
+                            </p>
+                            )}
+                        </section>
                     </section>
 
                     <button className="footer" onClick={() => navigate("/know-more")}>Próximo</button>

@@ -8,8 +8,6 @@
     text-align: justify ;
   }
 
-  
-
   .introduction{
     padding: 5vh;
     text-align: justify ;
@@ -18,12 +16,12 @@
   .violenceMenu{
     padding: 3vh;
 
-    .dropdownTitle{
+    .dropdownTitle {
       font-weight: bold;
       margin-top: -2vh;
     }
 
-    .dropdownText{
+    .dropdownText {
       margin-top: -2vh;
       font-size: 15px;
     }
@@ -59,11 +57,26 @@
       margin-right: 2%;
     }
   }
-  
+
 /* CSS seção FAQ */
-  .faq{
-    padding: 5vh;
-    text-align: left ;
+  .faq {
+    padding: 3vh;
+
+    .dropdownTitleFaq {
+      font-weight: bold;
+      margin-top: -2vh;
+    }
+
+    .dropdownTextFaq {
+      margin-top: -2vh;
+      font-size: 15px;
+    }
     
+  }
+
+  .iconFaq {
+    float: left;
+    margin-right: 2%;
+    color: purple ;
   }
 
