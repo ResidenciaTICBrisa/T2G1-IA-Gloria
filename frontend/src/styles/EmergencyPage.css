@@ -42,4 +42,11 @@
   text-align: center; 
   margin-top: 2vh; 
 }
-  
+
+.main {
+  padding: 3vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}

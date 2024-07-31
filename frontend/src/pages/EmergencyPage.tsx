@@ -25,7 +25,7 @@ const EmergencyPage = () => {
     return (
         <section>
             <Header/>
-            <main>
+            <main className="main">
                 <section className="question-emergency"> 
                     <h3>Você está em risco no momento?</h3>
                     <p>O número 190 é o telefone da Polícia Militar que deve ser acionado em casos de necessidade imediata ou socorro rápido.</p>
