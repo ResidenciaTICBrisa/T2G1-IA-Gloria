@@ -1,5 +1,10 @@
 /* Emergency */
 
+.question-emergency {
+  text-align: center; 
+  padding-top: 5vh;
+}
+
 .buttons-container-emergency {
     display: flex;
     flex-direction: column;
@@ -7,6 +12,7 @@
     gap: 3vw;
     align-items: center;
     margin-top: 25%;
+    padding: 3vw;
   }
   
 .green-button,
@@ -19,7 +25,7 @@
   border-radius: 1em;
   color: white;
   margin-bottom: 5%;
-  width: 50vw;
+  width: 40vw;
   display: flex;
   justify-content: center; /* Centraliza o texto horizontalmente */
   align-items: center; /* Centraliza o texto verticalmente */
@@ -49,4 +55,12 @@
   justify-content: center; 
   align-items: center;
   flex-direction: column;
+}
+
+@media (min-width: 1000px) {
+  .buttons-container-emergency {
+    width: 70%;
+    margin: 20vh auto; 
+    justify-content: center; 
+  }
 }
