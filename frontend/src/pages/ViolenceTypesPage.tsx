@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import { useState } from 'react';
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
 import { FaQuestionCircle } from "react-icons/fa";
+import { BsSearchHeart } from "react-icons/bs";
 import '../styles/ViolenceTypesPage.css'
 import '../styles/Footer.css'
 import { useNavigate } from 'react-router-dom';
@@ -147,6 +148,25 @@ const ViolenceTypesPage = () => {
                                 Não. A realização de um registro não substitui uma denúncia policial e os dados que obtemos não são. Além de que não podemos fornecer o apoio e proteção fornecidos ao realizar um boletim de ocorrência. Recomendamos fortemente que o usuário também procure ajuda de profissionais.
                             </p>
                             )}
+                        </section>
+                    </section>
+
+                    <section className="LinksOtherOngs">
+                        <h2> <BsSearchHeart /> Conheça Também</h2>
+
+                        <section>
+                            <p>Instituto Maria da Penha:</p>
+                            <a href="https://institutomariadapenha.org.br/">https://institutomariadapenha.org</a>
+                        </section>
+
+                        <section>
+                            <p>ONU Mulheres:</p>
+                            <a href="https://www.onumulheres.org.br/">https://www.onumulheres.org.br/</a>
+                        </section>
+
+                        <section>
+                            <p>Secretaria do Estado da Mulher:</p>
+                            <a href="https://www.mulher.df.gov.br/">https://www.mulher.df.gov.br/</a>
                         </section>
                     </section>
 

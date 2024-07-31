@@ -4,17 +4,17 @@
 }
 
   .infoMapadaViolencia{
-    padding: 5vh;
+    padding: 5vh 5vh 0 5vh;
     text-align: justify ;
   }
 
   .introduction{
-    padding: 5vh;
+    padding: 2vh 5vh;
     text-align: justify ;
   }
 
   .violenceMenu{
-    padding: 3vh;
+    padding: 1vh 3vh;
 
     .dropdownTitle {
       font-weight: bold;
@@ -60,7 +60,7 @@
 
 /* CSS seção FAQ */
   .faq {
-    padding: 3vh;
+    padding: 0 3vh 2vh 3vh;
 
     .dropdownTitleFaq {
       font-weight: bold;
@@ -80,3 +80,7 @@
     color: purple ;
   }
 
+/* CSS Conheça Também */ 
+.LinksOtherOngs {
+  padding: 0vh 3vh;
+}
