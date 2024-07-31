@@ -1,16 +1,32 @@
 .holepage {
   overflow: auto; 
   height: 80vh; 
+  text-align: left ;
 }
+  /* CSS sumário */
+  .summary{
+    padding: 5vh 5vh 0 5vh;
+  }
+  .summary-list{
+    list-style-type: none;
+    padding: 1vh 3vh;
+  }
+  .summary-button {
+    cursor: pointer;
+  }
+  .summary-button:hover{
+    color: purple;
+  }
 
+  /* CSS info  */
   .infoMapadaViolencia{
     padding: 5vh 5vh 0 5vh;
-    text-align: justify ;
+    
   }
 
   .introduction{
     padding: 2vh 5vh;
-    text-align: justify ;
+    
   }
 
   .violenceMenu{

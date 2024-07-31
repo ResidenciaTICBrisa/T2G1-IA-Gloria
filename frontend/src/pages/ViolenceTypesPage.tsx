@@ -1,8 +1,10 @@
 import Header from "../components/Header";
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
+import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaQuestionCircle } from "react-icons/fa";
-import { BsSearchHeart } from "react-icons/bs";
+import { BsSearchHeartFill } from "react-icons/bs";
+import { FaExclamationCircle } from "react-icons/fa";
 import '../styles/ViolenceTypesPage.css'
 import '../styles/Footer.css'
 import { useNavigate } from 'react-router-dom';
@@ -16,6 +18,16 @@ const ViolenceTypesPage = () => {
         setOpenSection(openSection === sectionName ? null : sectionName);
     };
 
+    //funções para o sumário
+    const infoMapadaViolenciaRef = useRef<HTMLElement>(null);
+    const typesOfViolenceRef = useRef<HTMLElement>(null);
+    const faqRef = useRef<HTMLElement>(null);
+    const linksRef = useRef<HTMLElement>(null);
+
+    const handleScrollToSection = (ref: React.RefObject<HTMLElement>) => {
+        ref.current?.scrollIntoView({ behavior: 'smooth' });
+      };
+
     return (
         <div>
             <header>
@@ -24,15 +36,34 @@ const ViolenceTypesPage = () => {
 
             <main>
                 <section className="holepage">
-                    <section className="infoMapadaViolencia">
-                        <b>O que é o Mapa da Violência</b>
+                    <section className="summary">
+                        <p>Aqui você encontra as seguintes informações:</p>
+                        <ul className="summary-list">
+                            <li> 
+                                <p className="summary-button" onClick={() => handleScrollToSection(infoMapadaViolenciaRef)}><FaMapMarkedAlt /> O que é o Mapa da Violência</p>
+                            </li>
+                            <li> 
+                                <p className="summary-button" onClick={() => handleScrollToSection(typesOfViolenceRef)}><FaExclamationCircle /> Tipos de Violência</p>
+                            </li>
+                            <li> 
+                                <p className="summary-button" onClick={() => handleScrollToSection(faqRef)}><FaQuestionCircle /> Perguntas Frequentes (FAQ)</p>
+                            </li>
+                            <li> 
+                                <p className="summary-button" onClick={() => handleScrollToSection(linksRef)}><BsSearchHeartFill /> Conheça Também</p>
+                            </li>
+                        </ul>
+
+                    </section>
+                    <section ref={infoMapadaViolenciaRef} className="infoMapadaViolencia">
+                        <h2><FaMapMarkedAlt /> O que é o Mapa da Violência</h2>
                         <p>O Mapa da Violência é uma iniciativa do Instituto Glória em parceria com a Sociedade para o Desenvolvimento da Tecnologia da Informação (BRISA) que foi desenvolvido com o objetivo de combater a violência contra mulheres e meninas. </p>
                         <p>No Mapa da Violência os usuários podem fazer registros de situações de violência que vivenciaram auxiliando a identificar os locais mais violentos e quais as principais violências vivenciadas no Brasil. </p>
                         <p>Não é possível identificar quem registrou a ocorrência, garantindo a sua segurança, privacidade e anonimato. Sendo assim, o registro é totalmente anônimo e as informações obtidas são utilizadas para ajudar outras mulheres em situações de risco e auxiliar no planejamento de políticas públicas. </p>
                     </section>
 
 
-                    <section className="introduction">
+                    <section ref={typesOfViolenceRef} className="introduction">
+                        <h2><FaExclamationCircle /> Tipos de Violência</h2>
                         <p> Estão previstos cinco tipos de violência doméstica e familiar contra a mulher na Lei Maria da Penha. </p>
                         <b> Você sabe identificá-los? </b>
                     </section>
@@ -99,7 +130,7 @@ const ViolenceTypesPage = () => {
                         </section>
                     </section>
 
-                    <section className="faq">
+                    <section ref={faqRef} className="faq">
                         <h2> <FaQuestionCircle /> Perguntas Frequentes</h2>
                         <section className="faq-section">
                             <p className="dropdownTitleFaq" onClick={() => toggleSection("question1")}>
@@ -151,8 +182,8 @@ const ViolenceTypesPage = () => {
                         </section>
                     </section>
 
-                    <section className="LinksOtherOngs">
-                        <h2> <BsSearchHeart /> Conheça Também</h2>
+                    <section ref={linksRef} className="LinksOtherOngs">
+                        <h2> <BsSearchHeartFill /> Conheça Também</h2>
 
                         <section>
                             <p>Instituto Maria da Penha:</p>
