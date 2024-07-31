@@ -1,49 +1,69 @@
-.introduction{
-  padding: 5vh;
-  text-align: justify ;
+.holepage {
+  overflow: auto; 
+  height: 80vh; 
 }
 
-.violenceMenu{
-  padding: 3vh;
-
-  .dropdownTitle{
-    font-weight: bold;
-    margin-top: -2vh;
+  .infoMapadaViolencia{
+    padding: 5vh;
+    text-align: justify ;
   }
 
-  .dropdownText{
-    margin-top: -2vh;
-    font-size: 15px;
+  
+
+  .introduction{
+    padding: 5vh;
+    text-align: justify ;
   }
 
-  .iconFisical{
-    color: #023AFF;
-    float: left;
-    margin-right: 2%;
+  .violenceMenu{
+    padding: 3vh;
+
+    .dropdownTitle{
+      font-weight: bold;
+      margin-top: -2vh;
+    }
+
+    .dropdownText{
+      margin-top: -2vh;
+      font-size: 15px;
+    }
+
+    .iconFisical{
+      color: #023AFF;
+      float: left;
+      margin-right: 2%;
+    }
+
+    .iconMoral{
+      color: #FA5A00;
+      float: left;
+      margin-right: 2%;
+    }
+
+    .iconPsychological{
+      color: #FCC605;
+      float: left;
+      margin-right: 2%;
+
+    }
+
+    .iconPatrimonial{
+      color: #248E12;
+      float: left;
+      margin-right: 2%;
+    }
+
+    .iconSexual{
+      color: #FD0000;
+      float: left;
+      margin-right: 2%;
+    }
+  }
+  
+/* CSS seção FAQ */
+  .faq{
+    padding: 5vh;
+    text-align: left ;
+    
   }
 
-  .iconMoral{
-    color: #FA5A00;
-    float: left;
-    margin-right: 2%;
-  }
-
-  .iconPsychological{
-    color: #FCC605;
-    float: left;
-    margin-right: 2%;
-
-  }
-
-  .iconPatrimonial{
-    color: #248E12;
-    float: left;
-    margin-right: 2%;
-  }
-
-  .iconSexual{
-    color: #FD0000;
-    float: left;
-    margin-right: 2%;
-  }
-}
