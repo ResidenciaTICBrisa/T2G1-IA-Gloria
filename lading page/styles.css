@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+
+header {
+    background: #342055;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 330px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logo-image {
+    height: 40px; 
+    margin-right: 10px; 
+}
+
+/* Main  */
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(128, 43, 128, 0.637), rgba(128, 43, 128, 0.637)), url('../img/cidade.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero .content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero .buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hero .buttons .btn {
+    background: #FFA500;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.hero .buttons .btn:hover {
+    background: #d69721;
+}
+
+/* Textos introdutórios */
+
+section {
+    padding: 20px 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #612368;
+    margin-left: 38%; 
+    margin-right: 38%;
+}
+
+.sobre {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.instituto {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 30px;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.contato {
+    text-align: justify;
+    margin: 35px 100px;
+    font-size: 18px;
+}
+
+.content-about,
+.content-contact {
+    overflow: hidden; 
+}
+
+.side-image {
+    float: left;
+    margin-right: 60px; 
+    margin-left: 100px;
+    max-width: 25%; 
+}
+
+.other-side-image {
+    float: right;
+    max-width: 25%;
+    margin-right: 100px; 
+    margin-left: 60px;
+}
+/* Cartas */
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.step-card {
+    background: #dfdfdf;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+}
+
+.step-card h2 {
+    font-size: 48px;
+    color: #612368;
+    margin-bottom: 10px;
+}
+
+.step-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.step-card p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+.step-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Entrar em contato */
+
+.github-table {
+    margin: 0 auto; 
+    border-collapse: collapse; 
+}
+
+.github-table td {
+    text-align: center; 
+    padding: 10px; 
+}
+
+.github-table img {
+    border-radius: 50%; 
+}
