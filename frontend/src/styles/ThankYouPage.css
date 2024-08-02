@@ -45,13 +45,6 @@
     margin-top: 1em; 
 }
 
-.header-map-items .logo-map {
-    width: 150px ; 
-    height: auto ; 
-    margin-bottom: 10px;
-
-}
-
 @media (min-width: 900px) {
     .knowMore-Thankyou {
         width: 60%;
