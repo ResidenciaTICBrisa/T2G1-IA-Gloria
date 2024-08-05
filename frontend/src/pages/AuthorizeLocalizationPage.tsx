@@ -81,7 +81,7 @@ const AuthorizeLocalizationPage = () => {
       <Header />
       <main>
         <section className="page">
-          <FormIndex value={4}/>
+          
         </section>
 
         <section className="question">
