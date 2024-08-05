@@ -8,9 +8,8 @@
     border-radius: 5px;
     z-index: 1000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    opacity: 80%;
-  }
 
+  }
   
   .legend-list {
     list-style-type: none;

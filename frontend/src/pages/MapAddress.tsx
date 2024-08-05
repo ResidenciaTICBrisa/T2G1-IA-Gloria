@@ -8,6 +8,7 @@ import { icon } from 'leaflet';
 import LocationIcon from "../assets/location_icon.png"; 
 import '../styles/MapPageAddress.css';
 import HeaderMap from '../components/HeaderMap';
+import UserLocation from '../components/UserLocation';
 
 function Mapa() {
   const navigate = useNavigate();
@@ -88,7 +89,7 @@ function Mapa() {
         zoomControl={false}
       >
         <MapEventsHandler /> 
-
+        <Marker position={coordinates ? [coordinates.lat, coordinates.lon] : [-15.794, -47.882]} icon={UserLocation()}/>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
