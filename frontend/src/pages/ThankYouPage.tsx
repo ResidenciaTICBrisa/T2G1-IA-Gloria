@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import HeaderTy from "../components/HeaderThankyou"
-import FormIndex from "../components/FormIndex";
+//import FormIndex from "../components/FormIndex";
 import { TiPencil } from "react-icons/ti";
 import '../styles/ThankYouPage.css'
 import '../styles/Footer.css'
@@ -14,8 +14,8 @@ const ThankYouPage = () => {
             <main>
 
                 <section className="page">
-                    <FormIndex value={4}/>
-                </section>
+                    
+                </section> 
 
                 <section className="main-knowmore">
                     <section className="thankyouTitles">
