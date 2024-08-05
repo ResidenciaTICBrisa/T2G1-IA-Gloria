@@ -13,7 +13,7 @@ const HeaderTy = () => {
                         <IoChevronBackCircleSharp className="icon-back" />
                     </button> */}
                     
-                    <img className="logo" src={Logo} alt="Logo da Gloria" onClick={() => navigate("/home-page")}/>
+                    <img className="logo" src={Logo} alt="Logo da Gloria" onClick={() => navigate("/what-to-do")}/>
                 </section>
             </header>
         </div>
