@@ -1,20 +1,20 @@
 .question {
   text-align: center;
   margin-top: 10vh;
-
-  .authorize-question {
-    margin-top: 1vh;
-    font-weight: bold;
-    font-size: 3vh;
-  }
-
-  .not-authorize-question {
-    margin-top: 1vh; 
-    padding-left: 2vw;
-    padding-right: 2vw; 
-    font-size: 3vh;
-  }
 }
+.authorize-question {
+  margin-top: 1vh;
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+.not-authorize-question {
+  margin-top: 1vh; 
+  padding-left: 2vw;
+  padding-right: 2vw; 
+  font-size: 3vh;
+}
+
 
 /* Authorize Localization */
 .buttons-container {

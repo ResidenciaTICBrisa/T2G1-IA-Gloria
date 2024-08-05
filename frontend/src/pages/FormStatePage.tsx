@@ -93,7 +93,7 @@ const FormStatePage = () => {
 
       <main>
         <section className="page">
-          <FormIndex value={1}/>
+
         </section>
 
         <section className="titles">

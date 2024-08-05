@@ -4,6 +4,7 @@ import LocationIconPink from "../assets/pink.png";
 import LocationIconGreen from "../assets/green.png";
 import LocationIconOrange from "../assets/orange.png";
 import LocationIconDefault from "../assets/default.png"; 
+
 import L from 'leaflet'
 
 // violência física

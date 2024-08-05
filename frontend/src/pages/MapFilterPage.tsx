@@ -9,6 +9,7 @@ import HeaderMap from '../components/HeaderMap';
 import Pin from '../components/Pin';
 // import { text } from 'stream/consumers';
 import LegendMapFilter from '../components/LegendMapFilter';
+import UserLocation from '../components/UserLocation';
 
 function MapFilter() {
   const navigate = useNavigate();
@@ -87,7 +88,7 @@ function MapFilter() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-      
+        <Marker position={coordinates ? [coordinates.lat, coordinates.lon] : [-15.794, -47.882]} icon={UserLocation()}/>
         {formated_occurrence_data.map((obj: { latitude: number, longitude: number, violence_type: string }, index: number) => (
           <Marker position={[obj.latitude, obj.longitude]} icon={Pin(obj.violence_type)} key={index}>
             <Popup>
