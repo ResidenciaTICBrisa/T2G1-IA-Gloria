@@ -48,7 +48,7 @@ const WhatToDoPage = () => {
 
                         <div 
                             className="know-more" 
-                            onClick={() => navigate("/violence-types")}
+                            onClick={() => navigate("/know-more")}
                         >
                             <TiPencil className="TiPencil"/>
                             <p className="text-know-more">Saber mais</p>
