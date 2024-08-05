@@ -80,7 +80,6 @@ const FormAboutViolencePage = () => {
         if (valid) {
             const datetime_violence = adjustDateTimeTimezone(date,time); // with the timezone
             localStorage.setItem('datetime_violence',datetime_violence);
-            // console.log(datetime_violence); 
 
             axios.post(URL, {
                 "datetime_violence": datetime_violence,

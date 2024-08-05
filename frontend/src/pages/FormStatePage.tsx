@@ -52,7 +52,6 @@ const FormStatePage = () => {
   }, [selectedState]);
 
   const handleNext = async () => {
-    console.log(selectedState)
     if (!selectedState || !selectedCity) {
       setError("Por favor, selecione o Estado e a Cidade.");
     } else {      
@@ -63,7 +62,6 @@ const FormStatePage = () => {
           const { lat, lon } = data[0];
           const coordinates = { lat, lon };
           if (action === 'viewMap') {
-            console.log(data[0])
             navigate("/map-filter", { state: { coordinates, action,occurrence_data_list } });
           } else {
             navigate("/map-address",{state: {coordinates, action:'register'}});

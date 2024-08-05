@@ -27,9 +27,6 @@ function MapFilter() {
     VT5: 'Moral',
   };
 
-  console.log(selectedFilters + " teste 1");
-  console.log(selectedFiltersBackend + " teste 2");
-
   const handleSelectFilters = () => {
     const checkboxes = document.querySelectorAll('.filter-content input[type="checkbox"]:checked');
     const filters = Array.from(checkboxes).map(checkbox => checkbox.parentElement?.textContent?.trim() || '');

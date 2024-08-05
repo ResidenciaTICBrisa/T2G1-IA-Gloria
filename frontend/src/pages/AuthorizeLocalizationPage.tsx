@@ -25,30 +25,27 @@ const AuthorizeLocalizationPage = () => {
             axios.get(URL)
             .then(occurrence_data => {
               const occurrence_data_list = occurrence_data.data
-              console.log(occurrence_data.data)
-              console.log(typeof occurrence_data.data)
               navigate("/map-filter", { state: { coordinates, action, occurrence_data_list} });
             })
             .catch(error => {
-              console.log(error);
-              console.log("Serviço indisponível");
+              console.log("Serviço indisponível.");
             });
 
           } else if (action === "register") {
             navigate("/map-address", { state: { coordinates, action } });
           } else {
-            console.error("Unsupported action.");
+            console.error("Requisição inválida.");
           }
         },
         (error) => {
           // Handle error
           console.error("Error code:", error.code, " - ", error.message);
-          console.error("Geolocation access denied or not available.");
+          console.error("A captura da localização não foi autorizada ou está inválida.");
         }
       );
     } else {
       // Geolocation not supported
-      console.error("Geolocation is not supported by this browser.");
+      console.error("Serviço indisponível para este navegador.");
     }
   };
 
