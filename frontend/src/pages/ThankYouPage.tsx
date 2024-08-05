@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import Header from "../components/Header"
-import FormIndex from "../components/FormIndex";
+import HeaderTy from "../components/HeaderThankyou"
+//import FormIndex from "../components/FormIndex";
 import { TiPencil } from "react-icons/ti";
 import '../styles/ThankYouPage.css'
 import '../styles/Footer.css'
@@ -10,12 +10,12 @@ const ThankYouPage = () => {
 
     return (
         <section>
-            <Header/>
+            <HeaderTy/>
             <main>
 
                 <section className="page">
-                    <FormIndex value={4}/>
-                </section>
+                    
+                </section> 
 
                 <section className="main-knowmore">
                     <section className="thankyouTitles">
@@ -29,7 +29,7 @@ const ThankYouPage = () => {
                         <button className="button-know-more" onClick={() => navigate("/know-more")}>Quero saber mais</button>
                     </section>
 
-                    <button className="footer" onClick={() => navigate("/home-page")}>Finalizar</button>
+                    <button className="footer" onClick={() => navigate("/what-to-do")}>Menu Inicial</button>
                 </section>
             </main>
         </section>
