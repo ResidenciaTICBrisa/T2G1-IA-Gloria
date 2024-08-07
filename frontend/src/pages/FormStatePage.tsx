@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import Header from "../components/Header";
+import ErrorMessage from "../components/ErrorMessage";
 import '../styles/Footer.css';
-import '../styles/FormStatePage.css';
-import FormIndex from "../components/FormIndex";
+import '../styles/Forms.css';
 import FormCityOption from "../components/FormCityOption";
 import FormStateOption from "../components/FormStateOption";
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -90,35 +90,38 @@ const FormStatePage = () => {
       <Header />
 
       <main>
-        <section className="page">
+        <section className="holepage">
+          <section className="page m-top">
 
+
+          </section>
+
+          <section className="prompt">
+
+          <FormStateOption value={formValue}/>
+
+            <select className="state" value={selectedState} onChange={(e) => setSelectedState(e.target.value)}>
+              <option value="">Selecione um estado:</option>
+              {states.map((state) => (
+                <option key={state.sigla} value={state.sigla}>{state.nome}</option>
+              ))}
+            </select>
+            <ErrorMessage error={error} />
+          </section>
+        
+          <section className="prompt">
+
+            <FormCityOption value={formValue}/>
+
+            <select className="city" value={selectedCity} onChange={(e) => setSelectedCity(e.target.value)}>
+              <option value="">Selecione uma cidade:</option>
+              {cities.map((city) => (
+                <option key={city} value={city}>{city}</option>
+              ))}
+            </select>
+            <ErrorMessage error={error} />
+          </section>
         </section>
-
-        <section className="titles">
-
-         <FormStateOption value={formValue}/>
-
-          <select className="state" value={selectedState} onChange={(e) => setSelectedState(e.target.value)}>
-            <option value="">Selecione um estado:</option>
-            {states.map((state) => (
-              <option key={state.sigla} value={state.sigla}>{state.nome}</option>
-            ))}
-          </select>
-        </section>
-      
-        <section className="titles">
-
-          <FormCityOption value={formValue}/>
-
-          <select className="city" value={selectedCity} onChange={(e) => setSelectedCity(e.target.value)}>
-            <option value="">Selecione uma cidade:</option>
-            {cities.map((city) => (
-              <option key={city} value={city}>{city}</option>
-            ))}
-          </select>
-        </section>
-
-        {error && <p className="error">{error}</p>}
       </main>
 
       <button className="footer" onClick={handleNext}>Próximo</button>
