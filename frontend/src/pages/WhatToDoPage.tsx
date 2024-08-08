@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import HeaderTy from "../components/HeaderThankyou";
+import HeaderPages from "../components/HeaderPages";
 import { FaHand } from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
 import { TiPencil } from "react-icons/ti";
@@ -22,7 +22,7 @@ const WhatToDoPage = () => {
     return (
         <div className="whattodo-page">
             <section>
-                <HeaderTy/>
+                <HeaderPages/>
             </section>
     
         <main className="main-whattodo">
