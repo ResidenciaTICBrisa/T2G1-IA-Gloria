@@ -2,7 +2,7 @@ import Logo from "../assets/logo.png"
 import { useNavigate } from "react-router-dom";
 
 const HeaderMap = () => {
-    let navigate = useNavigate();
+    const navigate = useNavigate();
 
     return (
         <div>
