@@ -20,7 +20,7 @@ const ThankYouPage = () => {
                 <section className="main-knowmore">
                     <section className="thankyouTitles">
                         <h3>OBRIGADA!</h3>
-                        <h3>O seu registro ajuda outras mulheres!</h3>
+                        <h3>O seu registro ajuda a salvar a vida de outras mulheres!</h3>
                     </section>
 
                     <section 
