@@ -34,8 +34,8 @@ const EmergencyPage = () => {
                     </section>
 
                     <section className="buttons-container">
-                        <button className="authorize" onClick={callPolice}>Sim, ligar 190</button>
-                        <button className="not-authorize" onClick={callWomanService}>Não, fazer denúncia</button>
+                        <button className="authorize" onClick={callPolice}>Ligar 190</button>
+                        <button className="not-authorize" onClick={callWomanService}>Ligar 180</button>
                     </section>
 
                 </section>
