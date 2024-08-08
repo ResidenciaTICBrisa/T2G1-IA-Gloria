@@ -74,24 +74,24 @@ const AuthorizeLocalizationPage = () => {
   };
 
   return (
-    <div>
+    <section>
       <Header />
       <main>
-        <section className="page">
-          
-        </section>
-
         <section className="question">
-          <p className="authorize-question">Você autoriza o acesso a sua localização?</p>
-          <p className="not-authorize-question">Sua localização é importante para marcar o local relatado no mapa com precisão</p>
-        </section>
 
-        <section className="buttons-container">
-          <button className="authorize" onClick={handleAuthorize}>Autorizo</button>
-          <button className="not-authorize" onClick={handleNotAuthorize}>Não autorizo</button>
+          <section className="question">
+            <p className="title-text">Você autoriza o acesso a sua localização?</p>
+            <p className="middle-text">Sua localização é importante para marcar o local relatado no mapa com precisão</p>
+          </section>
+
+          <section className="buttons-container">
+            <button className="authorize" onClick={handleAuthorize}>Autorizo</button>
+            <button className="not-authorize" onClick={handleNotAuthorize}>Não autorizo</button>
+          </section>
+
         </section>
       </main>
-    </div>
+    </section>
   );
 };
 

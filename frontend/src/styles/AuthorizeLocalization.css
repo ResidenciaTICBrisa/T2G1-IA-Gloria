@@ -1,20 +1,15 @@
-.question {
+.title-text {
   text-align: center;
-  margin-top: 10vh;
-}
-.authorize-question {
-  margin-top: 1vh;
   font-weight: bold;
-  font-size: 3vh;
+  font-size: 1.2em;
+  padding-top: 15vh;
 }
 
-.not-authorize-question {
-  margin-top: 1vh; 
-  padding-left: 2vw;
-  padding-right: 2vw; 
-  font-size: 3vh;
+.middle-text {
+  text-align: center;
+  padding: 5vh 2vh;
+  font-size: 1em;
 }
-
 
 /* Authorize Localization */
 .buttons-container {
@@ -23,7 +18,7 @@
   justify-content: center;
   gap: 5vw;
   align-items: center; 
-  margin-top: 15vh;
+  margin-top: 10vh;
   padding: 0 5%; 
 }
 
@@ -33,8 +28,8 @@
   border: none;
   font-weight: bold;                                                                                                               
   cursor: pointer;
-  border-radius: 1em; 
-  font-size: 2.5vh; 
+  border-radius: 0.5em; 
+  font-size: 1.8vh; 
   color: white;
   margin-bottom: 5%; 
   width: 30vw; 
@@ -50,15 +45,17 @@
 
 @media (min-width: 1000px) {
   .buttons-container {
-    width: 70%;
+    width: 60%;
     margin: 20vh auto; 
     justify-content: center; 
   }
 
-  .buttons-container-emergency {
-    width: 70%;
-    margin: 20vh auto; 
-    justify-content: center; 
+  .title-text {
+    font-size: 1.4rem;
+  }
+
+  .middle-text {
+    font-size: 1.2rem;
   }
 }
 
