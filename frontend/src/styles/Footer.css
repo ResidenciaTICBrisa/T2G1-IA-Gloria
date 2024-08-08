@@ -6,7 +6,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 30vw;
-    height: 6vh;
+    height: 5vh;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     font-size: 13px;
@@ -15,19 +15,19 @@
     align-items: center;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 10vh;
+    margin-bottom: 14vh;
   }
 
 @media (min-width: 600px) {
   .footer {
     width: 20vw;
-    margin-bottom: 10vh ;
+    margin-bottom: 15vh ;
   }
 }
 
 @media (min-width: 1000px) {
   .footer {
-    width: 13vw;
-    margin-bottom: 12vh;
+    width: 9vw;
+    margin-bottom: 14vh;
   }
 }
