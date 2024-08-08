@@ -36,11 +36,11 @@
 }
                                                                                                                                                                                                                                                                                             
 .buttons-container .authorize {
-  background-color: #21A00D;
+  background-color: #df3e29;
 }
 
 .buttons-container .not-authorize {
-  background-color: #E10B0B;
+  background-color: #b983be;
 }                                                                                                                                                                                                 
 
 @media (min-width: 1000px) {
