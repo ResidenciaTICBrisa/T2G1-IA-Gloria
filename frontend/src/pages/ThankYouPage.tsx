@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import HeaderTy from "../components/HeaderThankyou"
-//import FormIndex from "../components/FormIndex";
+import HeaderPage from "../components/HeaderPages";
 import { TiPencil } from "react-icons/ti";
 import '../styles/ThankYouPage.css'
 import '../styles/Footer.css'
@@ -10,7 +9,7 @@ const ThankYouPage = () => {
 
     return (
         <section>
-            <HeaderTy/>
+            <HeaderPage/>
             <main>
 
                 <section className="page">
