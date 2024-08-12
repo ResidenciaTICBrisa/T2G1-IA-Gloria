@@ -9,6 +9,7 @@ const LegendMapFilter: React.FC = () => {
       { color: '#F28705', label: 'Violência Psicológica' },
       { color: '#09A603', label: 'Violência Patrimonial' },
       { color: '#F20505', label: 'Violência Sexual' },
+      { color: '#14120f', label: 'Múltiplos Tipos'}
     ];
 
     const [isLegendVisible, setIsLegendVisible] = useState(false);
