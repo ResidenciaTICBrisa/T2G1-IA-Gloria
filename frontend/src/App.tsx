@@ -17,11 +17,11 @@ export default function App() {
   return (
     <Router>
           <Routes>
+            <Route path="/" element={<WhatToDoPage />} />
             <Route path="/authorize-localization" element={<AuthorizeLocalizationPage />} />
             <Route path="/form-state" element={<FormStatePage />} />
             <Route path="/form-about-violence" element={<FormAboutViolencePage />} />
             <Route path="/form-classify-violence" element={<FormClassifyViolencePage />} />
-            <Route path="/what-to-do" element={<WhatToDoPage />} />
             <Route path="/emergency" element={<EmergencyPage />} />
             <Route path="/know-more" element={<KnowMorePage />} />
             <Route path="/thank-you" element={<ThankYouPage />} />

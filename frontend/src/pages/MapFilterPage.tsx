@@ -102,10 +102,6 @@ function MapFilter() {
       </MapContainer>
 
       <LegendMapFilter />
-
-      {/* <div className="btn-map">
-        <button className="btn btn-finish-filter" onClick={() => navigate("/what-to-do")}>Finalizar</button>
-      </div>  */}
       
     </div>
   );

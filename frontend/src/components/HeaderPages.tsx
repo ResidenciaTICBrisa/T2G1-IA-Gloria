@@ -12,7 +12,7 @@ const HeaderPages = () => {
                         className="logo-map" 
                         src={Logo} 
                         alt="Logo da Gloria" 
-                        onClick={() => navigate("/what-to-do")}
+                        onClick={() => navigate("/")}
                         style={{ width: '150px', height: 'auto', marginTop: '-1vh' }} 
                     />
                 </section>
