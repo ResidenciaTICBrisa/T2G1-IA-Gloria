@@ -64,8 +64,7 @@ main {
 }
 
 .logo {
-  width: 30vw; 
-  height: auto;
+  height: 25px;
 }
 
 /*Componente FormIndex*/ 
@@ -114,18 +113,11 @@ main {
   font-size: small;
   margin: 0;
 }
-@media (min-width: 500px) {
-  .logo { 
-    width: 30%;
-  }
-}
 
-@media (min-width: 1000px) {
-  .logo { 
-    width: 25%;
-  }
-
-  .button-back {
-    width: 6.5%;
-  }
+/*Componente UserLocation */
+.custom-icon-location {
+  color: purple;
+  border: 9px solid;
+  border-color: rgba(128, 0, 128, 0.315);
+  border-radius: 100%;
 }

@@ -14,6 +14,7 @@
   height: 20%;
   z-index: 500; 
 }
+
 .button-back-map {
   background-color: transparent; 
   position: relative;
@@ -25,6 +26,7 @@
   display: flex;
   margin-bottom: -5vh;
 }
+
 .icon-back-map {
   color: #3F0140;
   width: 100%; 
@@ -111,6 +113,14 @@
   text-align: left;
 }
 
+.map-info > 
+.map-alert{
+  color: #3F0140;
+  font-weight:bolder;
+}
+.map-alert span{
+  margin-right: 5px;
+}
 .address-style{
   font-weight: lighter;
 }
