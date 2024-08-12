@@ -9,6 +9,7 @@ import LocationIcon from "../assets/location_icon.png";
 import '../styles/MapPageAddress.css';
 import HeaderMap from '../components/HeaderMap';
 import UserLocation from '../components/UserLocation';
+import { IoChevronBackCircleSharp } from "react-icons/io5";
 
 function Mapa() {
   const navigate = useNavigate();
@@ -76,7 +77,9 @@ function Mapa() {
     <div className="map">
       <div className="overlay-container">
         <HeaderMap/>
-
+        <button className="button-back-map" onClick={() => navigate(-1)}>
+          <IoChevronBackCircleSharp className="icon-back-map" />
+        </button>
         <div className="map-title">
           <p className="map-text">{locationSelected ? 'LOCAL SELECIONADO' : 'MARQUE O LOCAL'}</p>
         </div>

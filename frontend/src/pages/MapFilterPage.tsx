@@ -10,6 +10,7 @@ import Pin from '../components/Pin';
 // import { text } from 'stream/consumers';
 import LegendMapFilter from '../components/LegendMapFilter';
 import UserLocation from '../components/UserLocation';
+import { IoChevronBackCircleSharp } from "react-icons/io5";
 
 function MapFilter() {
   const navigate = useNavigate();
@@ -49,7 +50,10 @@ function MapFilter() {
   return (
     <div className="map">
       <div className="overlay-container">
-        <HeaderMap />
+        <HeaderMap/>
+          <button className="button-back-map" onClick={() => navigate(-1)}>
+            <IoChevronBackCircleSharp className="icon-back-map" />
+          </button>
 
         <div className="map-title">
           <p className="map-text" onClick={() => setIsFilterVisible(!isFilterVisible)}>
