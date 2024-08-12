@@ -2,7 +2,7 @@
 import { FaCircle } from "react-icons/fa";
 import L from 'leaflet';
 import { renderToString } from 'react-dom/server';
-import "../styles/UserLocation.css"
+import "../App.css"
 
 const UserLocation = () => {
   const iconHtml = renderToString(

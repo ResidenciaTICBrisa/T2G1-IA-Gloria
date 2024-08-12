@@ -59,7 +59,7 @@
   
 .logo-map {
     height: auto;
-    width: 25vw;
+    width: 25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -240,11 +240,7 @@
   .map-title {
     width: 20%;
   }
-
-  .logo-map {
-    width: 13%;
-  }
-
+  
   .occurrence-details {
     width: 50%;
   }

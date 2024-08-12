@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import { LatLng } from 'leaflet';
 import { icon } from 'leaflet';
 import LocationIcon from "../assets/location_icon.png"; 
-import '../styles/MapPageAddress.css';
+import '../styles/MapAddress.css';
 import HeaderMap from '../components/HeaderMap';
 import UserLocation from '../components/UserLocation';
 import { IoChevronBackCircleSharp } from "react-icons/io5";
