@@ -123,8 +123,10 @@ const FormClassifyViolencePage = () => {
           <section className="prompt">
             <h4>Que situações você vivenciou durante o episódio de violência? Estamos aqui para compreender de forma gentil e acolhedora.</h4>
             <p>4. Selecione situações que você identificou durante o episódio:</p>
+              
+          <ErrorMessage error={error} />
           </section>
-
+      
           <section className="forms">
             <form>
               <div className="checkbox-container">
@@ -145,7 +147,6 @@ const FormClassifyViolencePage = () => {
                 ))}
               </div>
             </form>
-            <ErrorMessage error={error} />
           </section>
 
         </section>

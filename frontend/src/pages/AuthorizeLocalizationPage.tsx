@@ -1,7 +1,6 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import Header from "../components/Header";
-import '../styles/AuthorizeLocalization.css';
-import FormIndex from "../components/FormIndex";
+import '../styles/AuthorizeLocalizationAndEmergencyPage.css';
 import axios from "axios";
 
 const URL = "http://localhost:4000/map-filter";

@@ -10,6 +10,7 @@ import '../styles/MapPageAddress.css';
 import HeaderMap from '../components/HeaderMap';
 import UserLocation from '../components/UserLocation';
 import { IoChevronBackCircleSharp } from "react-icons/io5";
+import { LuAlertTriangle } from "react-icons/lu";
 
 function Mapa() {
   const navigate = useNavigate();
@@ -114,7 +115,12 @@ function Mapa() {
           </div>
 
           <div className="map-info">
-            <label>ENDEREÇO:</label> <span className="address-style">{address}</span>
+          <p className="map-alert"> 
+            <span><LuAlertTriangle /></span>
+            Evite marcar locais que possam te identificar.
+          </p>
+                  
+          <label>ENDEREÇO:</label> <span className="address-style">{address}</span>
           </div>
 
           <div className="btn-map">
