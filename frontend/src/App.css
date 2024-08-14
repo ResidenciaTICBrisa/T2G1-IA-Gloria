@@ -15,14 +15,64 @@ main {
   height: 80vh; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
 }
+/* Header No button */
+.header-no-button {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 90vh; 
+  position: absolute; 
+  bottom: 16rem;
+  left: 0;
+  width: 100%; 
+  margin: 0;
+}
 
-/*Componentes Header e HeaderMap*/ 
-.header {
+.logo-no-button {
+  width: 6rem; 
+  cursor: pointer; 
+}
+
+/*HeaderMap*/ 
+.header-map {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  position: relative;
+}
+
+.button-back-map {
+  background-color: transparent; 
+  border: none;
+  border-radius: 100vh;
+  font-size: 0;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 1rem; 
+}
+
+.icon-back-map {
+  color: #3F0140;
+  font-size: 1.7rem; 
+  display: flex;
+}
+
+.logo-map {
+  width: 6rem;
+}
+
+/* Header */
+.header-main {
   margin-top: -5vh;
 }
 
-.header-items,
-.header-map-items {
+.logo-main {
+  width: 6rem;
+}
+
+.header-items-main {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
@@ -105,7 +155,6 @@ main {
 .header-items .header-map-items {
   width: 50%;
 }
-
 
 /*Componente ErrorMessage*/
 .error{
