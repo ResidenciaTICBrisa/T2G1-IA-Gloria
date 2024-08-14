@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import HeaderPages from "../components/HeaderPages";
+import HeaderNoButton from "../components/HeaderNoButton";
 import { FaHand } from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
 import { TiPencil } from "react-icons/ti";
@@ -34,13 +34,13 @@ const WhatToDoPage = () => {
             </MapContainer>
 
             <section>
-                <HeaderPages/>
+                <HeaderNoButton/>
             </section>
     
         <main className="main-whattodo">
                 <section className="what-to-do">
                     <section className="titles-whattodo">
-                        <h4 className="intro-title">Este é o Mapa da Violência do Instituto Glória</h4>
+                        <h4 className="intro-title">Este é o Mapa da Violência do Instituto Gloria</h4>
                         <p className="question-whattodo">O que deseja fazer?</p>
                     </section>
 
