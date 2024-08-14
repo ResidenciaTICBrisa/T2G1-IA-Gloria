@@ -7,13 +7,13 @@ const Header = () => {
 
     return (
         <div>
-            <header className="header">
-                <section className="header-items reset-svg">
+            <header className="header-main">
+                <section className="header-items-main reset-svg">
                     <button className="button-back" onClick={() => navigate(-1)}>
                         <IoChevronBackCircleSharp className="icon-back" />
                     </button>
                     
-                    <img className="logo" src={Logo} alt="Logo da Gloria" onClick={() => navigate("/")}/>
+                    <img className="logo-main" src={Logo} alt="Logo da Gloria" onClick={() => navigate("/")}/>
                 </section>
             </header>
         </div>
