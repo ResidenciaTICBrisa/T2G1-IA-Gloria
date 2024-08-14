@@ -12,7 +12,7 @@ O objetivo da Sprint 15 é testar o front-end da aplicação para identificar e 
 
 | Descrição | Responsável | Status |
 |------------|-------------|-----------------------|
-|Testes front-end | Ana Júlia, Bárbara, Beatriz, Catlen, Izabelle e Kece| Em execução | 
+|Testes front-end | Ana Júlia, Bárbara, Beatriz, Catlen, Izabelle e Kece| Concluída | 
 | Versão responsiva da MapFilter, KnowMore, ThankYou, MapPage, MapAddress, FormClassifiyViolence e Header | Beatriz Lins | Concluída | 
 | Alterar o aquivo .env no para configurar Backend | Ana Júlia e Kece Line | Concluída | 
 | Preenchimento da tabela UserOccurrences | Catlen Cleane e Izabelle Rivas | Concluída | 

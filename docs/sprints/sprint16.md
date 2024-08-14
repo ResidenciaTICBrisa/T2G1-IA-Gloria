@@ -5,7 +5,7 @@ O objetivo da sprint 16 é preparar a apresentação para a terceira release (05
 
 **Datas da Sprint:**
 
-- **Início:** 01/06/2024
+- **Início:** 01/07/2024
 - **Término:** 08/07/2024
 
 **Backlog da Sprint:**
@@ -15,5 +15,7 @@ O objetivo da sprint 16 é preparar a apresentação para a terceira release (05
 | Atualizações envio de dados formClassifyViolencePage | Bárbara Beatriz e Izabelle Rivas | Concluída | 
 | Correção da visualização do mapa e do pin | Bárbara Beatriz e Izabelle Rivas | Concluída | 
 | Correção da coluna cidade no Banco de Dados | Bárbara Beatriz e Izabelle Rivas | Concluída | 
-| Slides de Apresentação para terceira release | Ana Júlia e Kece Line | Em execução | 
-| Atualizar documentação | Beatriz Lins e Catlen Cleane | Em execução |
+| Slides de Apresentação para terceira release | Ana Júlia e Kece Line | Concluída | 
+| Atualizar documentação | Beatriz Lins e Catlen Cleane | Concluída|
+|Criação da Landing Page | Beatriz Lins | Concluída | 
+Orçamento dos serviços de hospedagem | Ana Júlia | Concluída | 
