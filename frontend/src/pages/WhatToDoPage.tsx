@@ -8,11 +8,9 @@ import { useNavigate } from 'react-router-dom';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import '../styles/WhatToDoPage.css';
-import PopUp from '../components/Popup';
 
 const WhatToDoPage = () => {
     const navigate = useNavigate();
-    const [showPopUp, setShowPopUp] = useState(true);
 
     useEffect(() => {
         localStorage.removeItem('selectedState');
@@ -23,13 +21,6 @@ const WhatToDoPage = () => {
         localStorage.removeItem('checkedItems');
     }, []);
 
-    const handleAuthorize = () => {
-        setShowPopUp(false);
-    };
-
-    const handleNotAuthorize = () => {
-        setShowPopUp(false);
-    };
 
     return (
         <div className="whattodo-page">
@@ -47,10 +38,6 @@ const WhatToDoPage = () => {
             <section>
                 <HeaderPages/>
             </section>
-
-            {showPopUp && (
-                <PopUp onAuthorize={handleAuthorize} onNotAuthorize={handleNotAuthorize} />
-            )}
 
             <main className="main-whattodo">
                 <section className="what-to-do">

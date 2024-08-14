@@ -9,13 +9,14 @@ import KnowMorePage from './pages/KnowMorePage';
 import ThankYouPage from './pages/ThankYouPage';
 import Mapa from './pages/MapPage';
 import MapFilter from './pages/MapFilterPage';
-import MapAddress from './pages/MapAddress'
+import MapAddress from './pages/MapAddress';
+import Modal from './pages/Modal';
 
 export default function App() {
   return (
     <Router>
           <Routes>
-            <Route path="/" element={<WhatToDoPage />} />
+            <Route path="/" element={<Modal />} />
             <Route path="/form-state" element={<FormStatePage />} />
             <Route path="/form-about-violence" element={<FormAboutViolencePage />} />
             <Route path="/form-classify-violence" element={<FormClassifyViolencePage />} />
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="/map-page" element={<Mapa />} />
             <Route path="/map-filter" element={<MapFilter />} />
             <Route path="/map-address" element={<MapAddress />} />
+            <Route path="/modal" element={<Modal />} />
           </Routes>
     </Router>
   )

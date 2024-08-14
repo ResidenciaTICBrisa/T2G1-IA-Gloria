@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import '../styles/Popup.css';
 
 interface PopupComponentProps {
@@ -6,14 +7,26 @@ interface PopupComponentProps {
 }
 
 const PopupComponent: React.FC<PopupComponentProps> = ({ onAuthorize, onNotAuthorize }) => {
+  const navigate = useNavigate();
+
+  const handleAuthorize = () => {
+    onAuthorize();
+    navigate('/WhatToDoPage');
+  };
+
+  const handleNotAuthorize = () => {
+    onNotAuthorize();
+    navigate('/WhatToDoPage');
+  };
+
   return (
     <div className="popup-overlay">
       <div className="popup-content">
         <h3>MAPA DA VIOLÊNCIA</h3>
         <p>O seu registro ajuda a salvar a vida de outras mulheres!</p>
         <p>Para uma melhor experiência, você autoriza o acesso à sua localização?</p>
-        <button className="yes-btn" onClick={onAuthorize}>Sim</button>
-        <button className="no-btn" onClick={onNotAuthorize}>Não</button>
+        <button className="yes-btn" onClick={handleAuthorize}>Sim</button>
+        <button className="no-btn" onClick={handleNotAuthorize}>Não</button>
       </div>
     </div>
   );
