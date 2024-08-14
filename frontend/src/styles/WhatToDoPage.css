@@ -137,7 +137,7 @@
     height: 9vh;
   }
 
-  @media (min-width: 400px) {
+@media (min-width: 400px) {
     .titles-whattodo {
         font-size: 1em;
     }
