@@ -6,6 +6,7 @@ import { TiPencil } from "react-icons/ti";
 import { MdOutlineSos } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 import '../styles/WhatToDoPage.css';
+import { MapContainer, TileLayer } from 'react-leaflet';
 
 const WhatToDoPage = () => {
     const navigate = useNavigate();
@@ -21,6 +22,17 @@ const WhatToDoPage = () => {
 
     return (
         <div className="whattodo-page">
+            <MapContainer
+                center={[-15.794, -47.882]}
+                zoom={12}
+                style={{ width: '100vw', height: '100vh', position: 'absolute', zIndex: '-1' }}
+            >
+                <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+            </MapContainer>
+
             <section>
                 <HeaderPages/>
             </section>
