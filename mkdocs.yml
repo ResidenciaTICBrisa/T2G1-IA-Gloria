@@ -53,7 +53,9 @@ nav:
       - Sprint 14: sprints/sprint14.md 
       - Sprint 15: sprints/sprint15.md 
       - Sprint 16: sprints/sprint16.md 
-      - Sprint 17: sprints/sprint17.md 
+      - Sprint 17: sprints/sprint17.md
+      - Sprint 18: sprints/sprint18.md
+      - Sprint 19: sprints/sprint19.md
 
 
   - Roadmap: roadmap/roadmap.md
@@ -63,3 +65,4 @@ nav:
   - Diagramas:
     - Fluxograma da Interface: diagramas/fluxograma_interface.md
     - Arquitetura do Projeto: diagramas/arquitetura.md
+  - Landing Page: lading page/index.html
