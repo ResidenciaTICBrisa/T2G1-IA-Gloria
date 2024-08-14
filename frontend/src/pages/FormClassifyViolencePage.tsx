@@ -96,7 +96,7 @@ const FormClassifyViolencePage = () => {
         setError(null);
         localStorage.setItem('ViolenceTypeString',JSON.parse(response.request.response));
 
-        navigate("/authorize-localization", { state:{action : 'register'} }); // Passando o estado para a próxima página
+        navigate("/map-page", { state:{action : 'register'} }); // Passando o estado para a próxima página
       })
 
       .catch(error => {

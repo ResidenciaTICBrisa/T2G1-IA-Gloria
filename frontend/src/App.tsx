@@ -3,8 +3,6 @@ import './App.css'
 import FormStatePage from './pages/FormStatePage'
 import FormAboutViolencePage from './pages/FormAboutViolencePage';
 import FormClassifyViolencePage from './pages/FormClassifyViolencePage'
-import HomePage from './pages/HomePage';
-import AuthorizeLocalizationPage from './pages/AuthorizeLocalizationPage';
 import WhatToDoPage from './pages/WhatToDoPage';
 import EmergencyPage from './pages/EmergencyPage';
 import KnowMorePage from './pages/KnowMorePage';
@@ -18,7 +16,6 @@ export default function App() {
     <Router>
           <Routes>
             <Route path="/" element={<WhatToDoPage />} />
-            <Route path="/authorize-localization" element={<AuthorizeLocalizationPage />} />
             <Route path="/form-state" element={<FormStatePage />} />
             <Route path="/form-about-violence" element={<FormAboutViolencePage />} />
             <Route path="/form-classify-violence" element={<FormClassifyViolencePage />} />
