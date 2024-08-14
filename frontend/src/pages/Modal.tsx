@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/Modal.css';
 import { MapContainer, TileLayer } from 'react-leaflet';
-import HeaderPages from "../components/HeaderPages";
+import HeaderNoButton from '../components/HeaderNoButton';
 
 interface PopupComponentProps {
   onAuthorize: () => void;
@@ -26,8 +26,7 @@ const PopupComponent: React.FC<PopupComponentProps> = ({ onAuthorize, onNotAutho
 
   return (
     <div className="popup-overlay">
-        <HeaderPages/>
-
+      <HeaderNoButton/>
         <MapContainer
                 center={[-15.794, -47.882]}
                 zoom={12}
