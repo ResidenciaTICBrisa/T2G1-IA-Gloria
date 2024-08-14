@@ -1,0 +1,21 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1; 
+    display: flex;
+    margin-top: 7vh;
+    justify-content: center; 
+}
+
+.header-map-items {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.logo-map {
+    width: 150px; 
+    height: auto; 
+    cursor: pointer; 
+}
