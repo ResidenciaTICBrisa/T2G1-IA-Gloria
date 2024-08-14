@@ -1,5 +1,6 @@
 import Logo from "../assets/logo.png";
 import { useNavigate } from "react-router-dom";
+import '../styles/HeaderMapPage.css'
 
 const HeaderPages = () => {
     const navigate = useNavigate();
