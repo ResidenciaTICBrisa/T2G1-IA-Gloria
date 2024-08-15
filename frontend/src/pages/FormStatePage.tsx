@@ -6,17 +6,20 @@ import '../styles/Forms.css';
 import FormCityOption from "../components/FormCityOption";
 import FormStateOption from "../components/FormStateOption";
 import { useNavigate, useLocation } from 'react-router-dom';
+import FormIndex from "../components/FormIndex";
+
 
 const FormStatePage = () => {
   const navigate = useNavigate();
-  const location = useLocation();
-  const { action,occurrence_data_list } = location.state || {};
+  // const location = useLocation();
+  // const { action,occurrence_data_list } = location.state || {};
   const [states, setStates] = useState<{ nome: string, sigla: string }[]>([]);
   const [selectedState, setSelectedState] = useState('');
   const [cities, setCities] = useState<string[]>([]);
   const [selectedCity, setSelectedCity] = useState('');
   const [error, setError] = useState<string | null>(null);
-  const [formValue, setformValue] = useState<string>('')
+  const [formValue] = useState<string>('occurrence-record')
+  
 
   useEffect(() => {
     const fetchStates = async () => {
@@ -52,6 +55,7 @@ const FormStatePage = () => {
   }, [selectedState]);
 
   const handleNext = async () => {
+    console.log(selectedState)
     if (!selectedState || !selectedCity) {
       setError("Por favor, selecione o Estado e a Cidade.");
     } else {      
@@ -59,13 +63,11 @@ const FormStatePage = () => {
         const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${selectedCity},${selectedState}`);
         const data = await response.json();
         if (data.length > 0) {
-          const { lat, lon } = data[0];
-          const coordinates = { lat, lon };
-          if (action === 'viewMap') {
-            navigate("/map-filter", { state: { coordinates, action,occurrence_data_list } });
-          } else {
-            navigate("/map-address",{state: {coordinates, action:'register'}});
-          }
+          const {lat, lon} = data[0]; 
+          sessionStorage.setItem('latitude',lat);
+          sessionStorage.setItem('longitude',lon)
+          navigate("/map-address");
+
         } else {
           setError("Não foi possível encontrar as coordenadas da cidade selecionada.");
         }
@@ -77,28 +79,19 @@ const FormStatePage = () => {
     }
   };
 
-  useEffect(() => {
-    if (action === 'viewMap') {
-      setformValue('map-view'); // Define o valor como 'map-view' se a ação for 'viewMap'
-    } else {
-      setformValue('occurrence-record'); // Define o valor como 'occurrence-record' se a ação não for 'viewMap'
-    }
-  }, [action]);
-
   return (
     <div>
       <Header />
 
       <main>
         <section className="holepage">
-          <section className="page m-top">
-
-
+          <section className="page">
+            <FormIndex value={3}/>
           </section>
 
           <section className="prompt">
 
-          <FormStateOption value={formValue}/>
+            <FormStateOption value={formValue}/>
 
             <select className="state" value={selectedState} onChange={(e) => setSelectedState(e.target.value)}>
               <option value="">Selecione um estado:</option>
@@ -120,13 +113,14 @@ const FormStatePage = () => {
               ))}
             </select>
             <ErrorMessage error={error} />
+
           </section>
         </section>
+
       </main>
 
       <button className="footer" onClick={handleNext}>Próximo</button>
     </div>
   );
 };
-
 export default FormStatePage;
