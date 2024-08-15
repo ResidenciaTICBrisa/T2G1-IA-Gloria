@@ -8,13 +8,12 @@ import { icon } from 'leaflet';
 import LocationIcon from "../assets/location_icon.png"; 
 import '../styles/MapAddress.css';
 import HeaderMap from '../components/HeaderMap';
+import { IoChevronBackCircleSharp } from "react-icons/io5";
 import UserLocation from '../components/UserLocation';
-import { LuAlertTriangle } from "react-icons/lu";
 
 function Mapa() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { coordinates } = location.state || {}; 
   const [markerPosition, setMarkerPosition] = useState<LatLng | null>(null);
   const [locationSelected, setLocationSelected] = useState(false);
   const [address, setAddress] = useState<string>(""); 
@@ -26,6 +25,11 @@ function Mapa() {
     iconAnchor: [16, 48], 
   });
   const [erroAddress,setErroAddress] = useState<boolean>(true)
+
+  const coordinates = {
+    lat: Number(sessionStorage.getItem('latitude')),
+    lon: Number(sessionStorage.getItem('longitude'))
+  }
   
   useEffect(() => {
     if (markerPosition) {
@@ -77,6 +81,10 @@ function Mapa() {
     <div className="map">
       <div className="overlay-container">
         <HeaderMap/>
+        <button className="button-back-map" onClick={() => navigate(-1)}>
+          <IoChevronBackCircleSharp className="icon-back-map" />
+        </button>
+
         <div className="map-title">
           <p className="map-text">{locationSelected ? 'LOCAL SELECIONADO' : 'MARQUE O LOCAL'}</p>
         </div>
@@ -111,12 +119,7 @@ function Mapa() {
           </div>
 
           <div className="map-info">
-          <p className="map-alert"> 
-            <span><LuAlertTriangle /></span>
-            Evite marcar locais que possam te identificar.
-          </p>
-                  
-          <label>ENDEREÇO:</label> <span className="address-style">{address}</span>
+            <label>ENDEREÇO:</label> <span className="address-style">{address}</span>
           </div>
 
           <div className="btn-map">
