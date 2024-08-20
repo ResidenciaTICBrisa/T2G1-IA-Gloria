@@ -9,7 +9,7 @@ const ThankYouPage = () => {
 
     return (
         <section>
-            <HeaderNoButton/>
+            {/* <HeaderNoButton/> */}
             <main>
 
                 <section className="page">
